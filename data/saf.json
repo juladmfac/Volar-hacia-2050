@@ -374,6 +374,14 @@
           "tipo": "verificado",
           "fuentes": [
             {
+              "titulo": "Reglamento (UE) 2023/2405 (ReFuelEU Aviation), Anexo I. Diario Oficial de la UE, 31/10/2023",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/2405/oj/eng",
+              "anio": 2023,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            },
+            {
               "titulo": "Consejo de la UE: RefuelEU aviation initiative, Council adopts new law (09/10/2023)",
               "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/10/09/refueleu-aviation-initiative-council-adopts-new-law-to-decarbonise-the-aviation-sector/",
               "anio": 2023,
@@ -400,6 +408,14 @@
           "tipo": "verificado",
           "fuentes": [
             {
+              "titulo": "Reglamento (UE) 2023/2405 (ReFuelEU Aviation), Anexo I. Diario Oficial de la UE, 31/10/2023",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/2405/oj/eng",
+              "anio": 2023,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            },
+            {
               "titulo": "Consejo de la UE: RefuelEU aviation initiative, Council adopts new law (09/10/2023)",
               "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/10/09/refueleu-aviation-initiative-council-adopts-new-law-to-decarbonise-the-aviation-sector/",
               "anio": 2023,
@@ -421,10 +437,69 @@
           "anio": 2030
         },
         {
+          "anio": 2035,
+          "valor": 20,
+          "unidad": "%",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "Reglamento (UE) 2023/2405 (ReFuelEU Aviation), Anexo I. Diario Oficial de la UE, 31/10/2023",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/2405/oj/eng",
+              "anio": 2023,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            }
+          ],
+          "contexto": "Parte mínima de SAF en el combustible entregado en aeropuertos de la UE."
+        },
+        {
+          "anio": 2040,
+          "valor": 34,
+          "unidad": "%",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "Reglamento (UE) 2023/2405 (ReFuelEU Aviation), Anexo I. Diario Oficial de la UE, 31/10/2023",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/2405/oj/eng",
+              "anio": 2023,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            }
+          ],
+          "contexto": "Parte mínima de SAF en el combustible entregado en aeropuertos de la UE."
+        },
+        {
+          "anio": 2045,
+          "valor": 42,
+          "unidad": "%",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "Reglamento (UE) 2023/2405 (ReFuelEU Aviation), Anexo I. Diario Oficial de la UE, 31/10/2023",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/2405/oj/eng",
+              "anio": 2023,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            }
+          ],
+          "contexto": "Parte mínima de SAF en el combustible entregado en aeropuertos de la UE."
+        },
+        {
           "valor": 70,
           "unidad": "%",
           "tipo": "verificado",
           "fuentes": [
+            {
+              "titulo": "Reglamento (UE) 2023/2405 (ReFuelEU Aviation), Anexo I. Diario Oficial de la UE, 31/10/2023",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/2405/oj/eng",
+              "anio": 2023,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            },
             {
               "titulo": "Consejo de la UE: RefuelEU aviation initiative, Council adopts new law (09/10/2023)",
               "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/10/09/refueleu-aviation-initiative-council-adopts-new-law-to-decarbonise-the-aviation-sector/",
@@ -451,8 +526,17 @@
         {
           "anio": 2030,
           "valor": 0.7,
+          "unidad": "%",
           "tipo": "verificado",
           "fuentes": [
+            {
+              "titulo": "Reglamento (UE) 2023/2405 (ReFuelEU Aviation), Anexo I. Diario Oficial de la UE, 31/10/2023",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/2405/oj/eng",
+              "anio": 2023,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            },
             {
               "titulo": "EASA: ReFuelEU Aviation Annual Technical Report 2026, 2025 in review",
               "url": "https://www.easa.europa.eu/en/document-library/general-publications/refueleu-aviation-annual-technical-report-2026",
@@ -462,17 +546,76 @@
               "verificacion": "lectura"
             }
           ],
-          "contexto": "Parte mínima de combustibles sintéticos en cada año desde 2030. Además, el promedio de 2030 y 2031 debe ser al menos 1,2 %.",
+          "contexto": "Parte mínima de combustibles sintéticos en cada año de 2030 y 2031, con un promedio de al menos 1,2 % en ese período. Entre 2032 y 2034 el promedio sube a 2,0 %.",
           "conflicts": [
             "La página de la Comisión Europea dice «1,2 % desde 2030», sin aclarar que es el promedio mínimo de 2030 y 2031."
           ],
-          "nota": "Antes figuraba como conflicto entre 1,2 % (Consejo y Comisión) y 0,7 % (resumen de EUR-Lex). El Informe Técnico Anual 2026 de EASA aclara que son dos exigencias distintas: 0,7 % mínimo anual y 1,2 % promedio 2030–2031."
+          "nota": "El Anexo I del reglamento confirma lo que explicaba el Informe Técnico Anual 2026 de EASA: 0,7 % mínimo anual y 1,2 % de promedio en 2030–2031."
+        },
+        {
+          "anio": 2035,
+          "valor": 5,
+          "unidad": "%",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "Reglamento (UE) 2023/2405 (ReFuelEU Aviation), Anexo I. Diario Oficial de la UE, 31/10/2023",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/2405/oj/eng",
+              "anio": 2023,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            }
+          ],
+          "contexto": "Parte mínima de combustibles sintéticos (e-SAF), incluida dentro de la parte de SAF."
+        },
+        {
+          "anio": 2040,
+          "valor": 10,
+          "unidad": "%",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "Reglamento (UE) 2023/2405 (ReFuelEU Aviation), Anexo I. Diario Oficial de la UE, 31/10/2023",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/2405/oj/eng",
+              "anio": 2023,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            }
+          ],
+          "contexto": "Parte mínima de combustibles sintéticos (e-SAF), incluida dentro de la parte de SAF."
+        },
+        {
+          "anio": 2045,
+          "valor": 15,
+          "unidad": "%",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "Reglamento (UE) 2023/2405 (ReFuelEU Aviation), Anexo I. Diario Oficial de la UE, 31/10/2023",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/2405/oj/eng",
+              "anio": 2023,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            }
+          ],
+          "contexto": "Parte mínima de combustibles sintéticos (e-SAF), incluida dentro de la parte de SAF."
         },
         {
           "valor": 35,
           "unidad": "%",
           "tipo": "verificado",
           "fuentes": [
+            {
+              "titulo": "Reglamento (UE) 2023/2405 (ReFuelEU Aviation), Anexo I. Diario Oficial de la UE, 31/10/2023",
+              "url": "https://eur-lex.europa.eu/eli/reg/2023/2405/oj/eng",
+              "anio": 2023,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            },
             {
               "titulo": "Consejo de la UE: RefuelEU aviation initiative, Council adopts new law (09/10/2023)",
               "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/10/09/refueleu-aviation-initiative-council-adopts-new-law-to-decarbonise-the-aviation-sector/",

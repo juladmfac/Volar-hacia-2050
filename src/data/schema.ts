@@ -311,7 +311,7 @@ export const AerodromoFile = z
         oaci: dato(z.string().min(1)),
       })
       .strict(),
-    argentina: z.object({ anac_319: dato(z.string().min(1)), marco_evtol: dato(z.string().min(1)) }).strict(),
+    argentina: z.object({ anac_rpas: dato(z.string().min(1)), marco_evtol: dato(z.string().min(1)) }).strict(),
     pendientes: z.array(z.string()).default([]),
   })
   .strict()

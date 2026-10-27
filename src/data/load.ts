@@ -136,7 +136,7 @@ export const aerodromo = {
     faa: resolveDato(vp.faa_alcance),
     oaci: resolveDato(vp.oaci),
   },
-  argentina: { anac319: resolveDato(aerodromoData.argentina.anac_319), marcoEvtol: resolveDato(aerodromoData.argentina.marco_evtol) },
+  argentina: { anacRpas: resolveDato(aerodromoData.argentina.anac_rpas), marcoEvtol: resolveDato(aerodromoData.argentina.marco_evtol) },
 }
 
 // Ciudades (escena 6): estado, sitios y coordenadas.

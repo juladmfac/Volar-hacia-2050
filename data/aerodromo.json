@@ -273,27 +273,21 @@
     }
   },
   "argentina": {
-    "anac_319": {
-      "valor": "La Resolución ANAC 319/2025 (07/05/2025) aprueba la Parte 100 de las RAAC: requisitos generales para operar aeronaves pilotadas a distancia. Deroga la Resolución 880/2019.",
+    "anac_rpas": {
+      "valor": "La Resolución ANAC 550/2025 (07/08/2025) aprueba la segunda edición de la Parte 100 de las RAAC, con los requisitos generales para operar aeronaves pilotadas a distancia, y las nuevas Partes 101 (categoría abierta) y 102 (categoría específica). Deroga las Resoluciones 880/2019, 885/2019, 319/2025 y 334/2025.",
       "tipo": "verificado",
       "fuentes": [
         {
-          "titulo": "Resolución ANAC 319/2025, Boletín Oficial de la República Argentina (09/05/2025)",
-          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/325047/20250509",
+          "titulo": "Resolución ANAC 550/2025, Boletín Oficial de la República Argentina (08/08/2025)",
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/329510/20250808",
           "anio": 2025,
-          "consultado": "2026-10-26",
+          "consultado": "2026-10-27",
           "tipo": "primaria",
-          "verificacion": "buscador"
-        },
-        {
-          "titulo": "Part 100: ANAC Argentina updates its regulations for drones (Aviacionline)",
-          "url": "https://www.aviacionline.com/part-100-anac-argentina-updates-its-regulations-for-drones",
-          "anio": 2025,
-          "consultado": "2026-10-26",
-          "tipo": "secundaria",
-          "verificacion": "buscador"
+          "verificacion": "lectura"
         }
-      ]
+      ],
+      "contexto": "Vigente desde su publicación en el Boletín Oficial, el 08/08/2025. Los anexos con el texto de las Partes no se publican en el Boletín: están en la página de la ANAC.",
+      "nota": "Antes la app citaba la Resolución 319/2025 (primera edición de la Parte 100), que esta resolución deroga. Texto leído de la copia guardada por el autor el 27/10/2026."
     },
     "marco_evtol": {
       "valor": "No se identificó un marco específico para eVTOL tripulados.",
@@ -308,7 +302,7 @@
     }
   },
   "pendientes": [
-    "Resolución ANAC 550/2025 (07/08/2025): un estudio jurídico (Marval) dice que aprueba una segunda edición de la Parte 100 y las Partes 101 y 102; el Boletín Oficial, por buscador, solo muestra un cambio de numeración. Leer el texto antes de citarla.",
-    "Clave de aeródromo: falta la tabla del Anexo 14 (fuente primaria); hoy solo está SKYbrary."
+    "Clave de aeródromo: falta la tabla del Anexo 14 (fuente primaria); hoy solo está SKYbrary.",
+    "Anexos de la Resolución ANAC 550/2025 (texto de las Partes 100, 101 y 102): confirmar que no incluyen aeronaves tripuladas como el eVTOL."
   ]
 }

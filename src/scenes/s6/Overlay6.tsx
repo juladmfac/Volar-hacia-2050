@@ -180,12 +180,12 @@ function OtrasCiudades() {
 
 function Argentina() {
   const ar = aerodromo.argentina
-  const { notes, cite } = useFootnotes([ar.anac319, ar.marcoEvtol])
+  const { notes, cite } = useFootnotes([ar.anacRpas, ar.marcoEvtol])
   return (
     <>
       <div className="mt-6 grid gap-4 text-[0.8125rem] md:grid-cols-2">
         <div className="border-t hairline pt-3 text-tenue">
-          <DataValue field={ar.anac319} cite={cite} />
+          <DataValue field={ar.anacRpas} cite={cite} />
         </div>
         <div className="border-t hairline pt-3 text-tenue">
           <DataValue field={ar.marcoEvtol} cite={cite} />

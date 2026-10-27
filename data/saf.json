@@ -385,9 +385,9 @@
               "titulo": "Comisión Europea: ReFuelEU Aviation",
               "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en",
               "anio": null,
-              "consultado": "2026-10-26",
+              "consultado": "2026-10-27",
               "tipo": "primaria",
-              "verificacion": "buscador"
+              "verificacion": "lectura"
             }
           ],
           "contexto": "Parte mínima de SAF en el combustible entregado en aeropuertos de la UE.",
@@ -403,14 +403,6 @@
               "titulo": "Consejo de la UE: RefuelEU aviation initiative, Council adopts new law (09/10/2023)",
               "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/10/09/refueleu-aviation-initiative-council-adopts-new-law-to-decarbonise-the-aviation-sector/",
               "anio": 2023,
-              "consultado": "2026-10-26",
-              "tipo": "primaria",
-              "verificacion": "buscador"
-            },
-            {
-              "titulo": "Comisión Europea: ReFuelEU Aviation",
-              "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en",
-              "anio": null,
               "consultado": "2026-10-26",
               "tipo": "primaria",
               "verificacion": "buscador"
@@ -437,9 +429,9 @@
               "titulo": "Comisión Europea: ReFuelEU Aviation",
               "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en",
               "anio": null,
-              "consultado": "2026-10-26",
+              "consultado": "2026-10-27",
               "tipo": "primaria",
-              "verificacion": "buscador"
+              "verificacion": "lectura"
             }
           ],
           "contexto": "Parte mínima de SAF en el combustible entregado en aeropuertos de la UE.",
@@ -474,9 +466,9 @@
               "titulo": "Comisión Europea: ReFuelEU Aviation",
               "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en",
               "anio": null,
-              "consultado": "2026-10-26",
+              "consultado": "2026-10-27",
               "tipo": "primaria",
-              "verificacion": "buscador"
+              "verificacion": "lectura"
             }
           ],
           "contexto": "Parte mínima de combustibles sintéticos (e-SAF), incluida dentro del 70 % de SAF.",

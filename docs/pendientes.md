@@ -15,7 +15,7 @@ Dominios: iata.org, eur-lex.europa.eu, consilium.europa.eu, transport.ec.europa.
 - `data/saf.json` (26/10/2026): todas sus fuentes se confirmaron vía buscador; además, el reparto de ATAG (38 a 58 %, Informe v04 §3.4), las 11 rutas ASTM, los 0,6 Mt de e-SAF exigidos para 2030 y el mandato sintético de 2030 en ReFuelEU (1,2 % según el Consejo y la Comisión, 0,7 % según el resumen de EUR-Lex: leer el texto del reglamento). Ver `pendientes` en el archivo.
 - `data/energy_carriers.json`: SAF e híbrido sin valores; batería solo a nivel de celda (falta un valor de paquete con fuente); el hidrógeno es la sustancia sin tanque.
 - `docs/formulas.md`: referencias bibliográficas de Breguet y del hover.
-- `data/aerodromo.json` (26/10/2026, escena 6): ver `pendientes` en el archivo. Releer EASA PTS-VPT-DSN (1,5 D; 3 m o 0,25 D, hoy tomados del Informe Breve v03), la Tabla 1-1 del EB 105A, la tabla de claves del Anexo 14 (hoy solo SKYbrary) y la Resolución ANAC 550/2025 (si aprueba una segunda edición de la Parte 100).
+- `data/aerodromo.json` (26/10/2026, escena 6): ver `pendientes` en el archivo. EASA PTS-VPT-DSN y el EB 105A ya se leyeron (27/10/2026). Falta la tabla de claves del Anexo 14 (hoy solo SKYbrary; icao.int bloquea el acceso automático) y la Resolución ANAC 550/2025 (si aprueba una segunda edición de la Parte 100).
 - ReFuelEU: faltan las partes mínimas de 2035, 2040 y 2045 con fuente primaria; hasta cargarlas, el selector de año de la escena 6 las muestra sin verificar.
 - Coordenadas de São Paulo (`data/cities.json`): SDWT y São Paulo Expo solo tienen agregadores; Santos Convention Center no tiene coordenadas publicadas y no aparece en el mapa.
 

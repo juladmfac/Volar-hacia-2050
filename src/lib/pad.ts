@@ -24,9 +24,16 @@ export function ciclosPorHora(e: EtapasPad, pads = 1): number {
   return t === 0 ? Infinity : (60 / t) * pads
 }
 
-// Dimensiones mínimas de la geometría de EASA en función de D (diámetro del menor círculo que
-// envuelve a la aeronave). Los factores llegan desde data/aerodromo.json.
+// Dimensiones mínimas de la geometría de EASA (PTS-VPT-DSN) en función de D, el diámetro del menor
+// círculo que envuelve a la aeronave. Los factores llegan desde data/aerodromo.json.
+// La FATO es además al menos la dimensión que fija el manual de vuelo; eso no se calcula acá.
 export function fatoMinima(d: number, factor: number): number {
   if (!(d > 0) || !(factor > 0)) throw new RangeError('d y factor deben ser positivos')
   return d * factor
+}
+
+// Ancho mínimo del área de seguridad: el mayor entre un valor fijo y una fracción de D (C.220).
+export function areaSeguridad(d: number, metros: number, factor: number): number {
+  if (!(d > 0) || !(metros > 0) || !(factor > 0)) throw new RangeError('d, metros y factor deben ser positivos')
+  return Math.max(metros, d * factor)
 }

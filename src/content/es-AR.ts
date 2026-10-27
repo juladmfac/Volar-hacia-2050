@@ -249,6 +249,8 @@ export const S6_TEXT = {
   vertipuertoCuerpo:
     'El eVTOL no necesita pista, pero sí un pad con áreas libres alrededor. La geometría se define a partir de D, el diámetro del menor círculo que envuelve a la aeronave: el área de aproximación final y despegue (FATO), el área de seguridad que la rodea y un volumen libre de obstáculos para subir y bajar en vertical.',
   vertipuertoD: 'Probá con un D',
+  vertipuertoNota:
+    'La FATO puede tener que ser más grande si el manual de vuelo de la aeronave pide un procedimiento más largo o más ancho. La FAA usa otra base: relaciona la FATO con el diámetro que envuelve solo a los rotores.',
   ciudades: 'Dónde se planifica',
   ciudadesCuerpo:
     'Algunas megaciudades quieren abrir un carril nuevo en el espacio aéreo bajo porque no pueden ensanchar sus calles. Que eso alivie la congestión no está demostrado: es una hipótesis y un objetivo de esas ciudades. Este es el estado de lo anunciado, no de lo construido.',

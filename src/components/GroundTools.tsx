@@ -6,7 +6,7 @@ import SinVerificar from './SinVerificar.tsx'
 import TipoBadge from './TipoBadge.tsx'
 import { tint } from './charts/ConvivenciaMatrix.tsx'
 import { aerodromo, convivencia, safData } from '../data/load.ts'
-import { ciclosPorHora, fatoMinima, ocupacion, type EtapasPad } from '../lib/pad.ts'
+import { areaSeguridad, ciclosPorHora, fatoMinima, ocupacion, type EtapasPad } from '../lib/pad.ts'
 import { D_INICIAL, PAD_INICIAL } from '../illustrative/values.ts'
 import { S6_TEXT } from '../content/es-AR.ts'
 
@@ -132,11 +132,11 @@ export function FatoCalculator() {
         </dt>
         <dd className="text-right font-mono text-ilustrativo">{f ? `${num(fatoMinima(d, f))} m` : <SinVerificar />}</dd>
         <dt className="text-tenue">
-          Área de seguridad, ancho mínimo: <DataValue field={vp.seguridadM} cite={cite} context={false} /> o <DataValue field={vp.seguridadD} cite={cite} context={false} />
+          Área de seguridad, ancho mínimo: el mayor entre <DataValue field={vp.seguridadM} cite={cite} context={false} /> y <DataValue field={vp.seguridadD} cite={cite} context={false} />
         </dt>
-        <dd className="text-right font-mono text-ilustrativo">{sm && sd ? `${num(sm)} m o ${num(d * sd)} m` : <SinVerificar />}</dd>
+        <dd className="text-right font-mono text-ilustrativo">{sm && sd ? `${num(areaSeguridad(d, sm, sd))} m` : <SinVerificar />}</dd>
       </dl>
-      <p className="mt-3 text-[0.75rem] text-tenue">EASA da las dos formas del área de seguridad; acá no se elige entre ellas.</p>
+      <p className="mt-3 text-[0.75rem] text-tenue">{S6_TEXT.vertipuertoNota}</p>
       <Elegidos detail="el D lo elegís vos, no es dato; los factores sí lo son" />
       <Footnotes notes={notes} className="mt-3" />
     </div>

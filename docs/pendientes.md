@@ -18,7 +18,6 @@ Dominios: iata.org, eur-lex.europa.eu, consilium.europa.eu, transport.ec.europa.
 - `data/aerodromo.json` (26/10/2026, escena 6): ver `pendientes` en el archivo. Releer EASA PTS-VPT-DSN (1,5 D; 3 m o 0,25 D, hoy tomados del Informe Breve v03), la Tabla 1-1 del EB 105A, la tabla de claves del Anexo 14 (hoy solo SKYbrary) y la Resolución ANAC 550/2025 (si aprueba una segunda edición de la Parte 100).
 - ReFuelEU: faltan las partes mínimas de 2035, 2040 y 2045 con fuente primaria; hasta cargarlas, el selector de año de la escena 6 las muestra sin verificar.
 - Coordenadas de São Paulo (`data/cities.json`): SDWT y São Paulo Expo solo tienen agregadores; Santos Convention Center no tiene coordenadas publicadas y no aparece en el mapa.
-- Mapa base de la escena 6: las teselas de OpenFreeMap están bloqueadas en este entorno. Se probó con teselas simuladas; falta probarlo con las reales.
 
 ## De los informes Aviacion2050 (Clasificación Tecnológica v01, 18/10/2026)
 - Si la OACI integrará los vertipuertos en el Volumen II del Anexo 14 (no se leyó la fuente primaria).

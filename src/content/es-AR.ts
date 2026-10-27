@@ -1,5 +1,8 @@
-// Textos conceptuales (sin cifras). Son BORRADOR: se revisan antes de publicar.
-// Toda cifra va en data/*.json, nunca acá.
+// Textos conceptuales (sin cifras). Toda cifra va en data/*.json, nunca acá.
+
+// En true, cada texto conceptual muestra la marca «✎ texto conceptual en revisión» y la leyenda
+// la explica. El autor los dio por buenos el 27/10/2026; se vuelve a true si se reabre la revisión.
+export const TEXTOS_EN_REVISION = false
 
 import type { Configuracion, ForceId, HangarView, Hotspot, PortadorId } from '../store.ts'
 

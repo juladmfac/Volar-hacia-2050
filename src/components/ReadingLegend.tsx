@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useUI, type SceneId } from '../store.ts'
+import { TEXTOS_EN_REVISION } from '../content/es-AR.ts'
 
 // Qué es ilustrativo en cada escena: lo 3D nunca es dato.
 const ILUSTRATIVO: Record<SceneId, string> = {
@@ -40,8 +41,12 @@ export default function ReadingLegend() {
           <dd>operando · en preparación · proyectado</dd>
           <dt className="text-ilustrativo">◇</dt>
           <dd>ilustrativo, no es dato</dd>
-          <dt>✎</dt>
-          <dd>textos conceptuales en revisión</dd>
+          {TEXTOS_EN_REVISION && (
+            <>
+              <dt>✎</dt>
+              <dd>textos conceptuales en revisión</dd>
+            </>
+          )}
           {webgl && (
             <>
               <dt className="text-ilustrativo sm:hidden">◇</dt>

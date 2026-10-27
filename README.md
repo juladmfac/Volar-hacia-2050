@@ -1,8 +1,8 @@
 # Volar en 2050
 
-Relato interactivo en 3D sobre las tecnologías que pueden cambiar la aviación hacia 2050. El eje es el combustible de aviación sostenible (SAF): ya vuela mezclado en los motores actuales, pero su producción está muy lejos de la demanda. El eVTOL (aeronave eléctrica de despegue y aterrizaje vertical) aparece como complemento urbano, no como solución.
+Presento un relato interactivo en 3D sobre las tecnologías que pueden cambiar la aviación hacia 2050. El eje de todo esto es el combustible de aviación sostenible en ingles -Sustainable aviation fuel- por sus siglas S.A.F.: ya vuela mezclado en los motores actuales, pero su producción está muy lejos de la demanda. El eVTOL (aeronave eléctrica de despegue y aterrizaje vertical) en inglés "Electrical Vertical take off and landing" aparece como complemento urbano, no como solución.
 
-Es un proyecto de investigación personal de Julian Ruarte (Ingeniería Aeroespacial). Habla de escenarios, no de predicciones: cada cifra tiene fuente, y lo que no está verificado se muestra como "sin verificar".
+Este es un proyecto de investigación personal mio de Ingeniería Aeroespacial. Habla de escenarios, no de predicciones: cada cifra tiene fuente, y lo que no está verificado se muestra como "sin verificar".
 
 *Interactive 3D scrollytelling about aviation technologies toward 2050, centered on sustainable aviation fuel (SAF). Every figure in the app is sourced; unverified values are shown as such. Interface in Spanish.*
 

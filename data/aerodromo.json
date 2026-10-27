@@ -12,9 +12,9 @@
             "titulo": "ICAO Aerodrome Reference Code (SKYbrary)",
             "url": "https://skybrary.aero/articles/icao-aerodrome-reference-code",
             "anio": null,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "secundaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ]
       },
@@ -27,9 +27,9 @@
             "titulo": "ICAO Aerodrome Reference Code (SKYbrary)",
             "url": "https://skybrary.aero/articles/icao-aerodrome-reference-code",
             "anio": null,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "secundaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Hasta menos de 65 m."
@@ -46,9 +46,9 @@
             "titulo": "ICAO Aerodrome Reference Code (SKYbrary)",
             "url": "https://skybrary.aero/articles/icao-aerodrome-reference-code",
             "anio": null,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "secundaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ]
       },
@@ -61,9 +61,9 @@
             "titulo": "ICAO Aerodrome Reference Code (SKYbrary)",
             "url": "https://skybrary.aero/articles/icao-aerodrome-reference-code",
             "anio": null,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "secundaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Hasta menos de 80 m. Más allá, la guía está en el Manual de diseño de aeródromos (Doc 9157)."
@@ -126,9 +126,9 @@
           "titulo": "Boeing Reports Third Quarter Results (29/10/2025)",
           "url": "https://investors.boeing.com/investors/news/press-release-details/2025/Boeing-Reports-Third-Quarter-Results/default.aspx",
           "anio": 2025,
-          "consultado": "2026-10-26",
+          "consultado": "2026-10-27",
           "tipo": "primaria",
-          "verificacion": "informe"
+          "verificacion": "lectura"
         }
       ],
       "contexto": "Sin certificar: la FAA habilitó la fase 4b de inspección de tipo el 06/06/2026 y Boeing prevé la primera entrega en 2027."
@@ -254,9 +254,9 @@
           "titulo": "FAA, Advanced Air Mobility Infrastructure (página actualizada el 23/06/2025)",
           "url": "https://www.faa.gov/airports/new_entrants/aam_infrastructure",
           "anio": 2025,
-          "consultado": "2026-10-26",
+          "consultado": "2026-10-27",
           "tipo": "primaria",
-          "verificacion": "informe"
+          "verificacion": "lectura"
         }
       ]
     },

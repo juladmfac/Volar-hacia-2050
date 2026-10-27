@@ -12,17 +12,17 @@
             "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
             "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
             "anio": 2025,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           },
           {
             "titulo": "IATA: Fact Sheet, Sustainable Aviation Fuels",
             "url": "https://www.iata.org/en/iata-repository/pressroom/fact-sheets/fact-sheet-sustainable-aviation-fuels/",
             "anio": null,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Producción mundial de SAF, según IATA.",
@@ -45,17 +45,17 @@
             "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
             "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
             "anio": 2025,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           },
           {
             "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
             "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
             "anio": 2026,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Producción mundial de SAF, según IATA. En diciembre de 2024 IATA había proyectado 2,1 Mt para 2025.",
@@ -72,9 +72,9 @@
             "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
             "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
             "anio": 2025,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Parte del consumo mundial de combustible de aviación.",
@@ -94,17 +94,17 @@
             "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
             "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
             "anio": 2026,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           },
           {
             "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
             "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
             "anio": 2025,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Proyección de IATA para 2026: la producción crece, pero más despacio que en 2025.",
@@ -119,17 +119,17 @@
             "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
             "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
             "anio": 2026,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           },
           {
             "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
             "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
             "anio": 2025,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Proyección de IATA para 2026, como parte del consumo mundial de combustible de aviación.",
@@ -146,9 +146,9 @@
         "titulo": "IATA: Quarterly Air Transport Chartbook, Q2 2026",
         "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/quarterly-air-transport-chartbook-q2-2026/",
         "anio": 2026,
-        "consultado": "2026-10-26",
+        "consultado": "2026-10-27",
         "tipo": "primaria",
-        "verificacion": "buscador"
+        "verificacion": "lectura"
       }
     ],
     "contexto": "Capacidad de producción proyectada por IATA para fin de 2026. Capacidad no es producción: la mayor parte no se usa.",
@@ -171,7 +171,9 @@
         }
       ],
       "contexto": "Lo que pagaron de más las aerolíneas por el SAF de 2025, según IATA: incluye 1.400 millones de sobreprecio y 1.500 millones de cargos de cumplimiento trasladados por los proveedores en Europa y el Reino Unido.",
-      "conflicts": [],
+      "conflicts": [
+        "El comunicado de IATA del 09/12/2025 habla de 3.600 millones de USD de costo adicional para la industria en 2025; los 2.900 millones de sobreprecio pagado por el SAF figuran en el informe completo según la prensa (S&P Global)."
+      ],
       "anio": 2025
     },
     {
@@ -183,9 +185,9 @@
           "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
           "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
           "anio": 2026,
-          "consultado": "2026-10-26",
+          "consultado": "2026-10-27",
           "tipo": "primaria",
-          "verificacion": "buscador"
+          "verificacion": "lectura"
         }
       ],
       "contexto": "Sobrecosto proyectado por IATA para 2026.",
@@ -220,17 +222,17 @@
         "titulo": "IATA: SAF Handbook (mayo de 2024)",
         "url": "https://www.iata.org/contentassets/d13875e9ed784f75bac90f000760e998/saf-handbook.pdf",
         "anio": 2024,
-        "consultado": "2026-10-26",
+        "consultado": "2026-10-27",
         "tipo": "primaria",
-        "verificacion": "buscador"
+        "verificacion": "lectura"
       },
       {
         "titulo": "US DOE, Alternative Fuels Data Center: Sustainable Aviation Fuel",
         "url": "https://afdc.energy.gov/fuels/sustainable-aviation-fuel",
         "anio": null,
-        "consultado": "2026-10-26",
+        "consultado": "2026-10-27",
         "tipo": "primaria",
-        "verificacion": "buscador"
+        "verificacion": "lectura"
       }
     ],
     "contexto": "Máximo de SAF en mezcla con queroseno fósil para la mayoría de las rutas aprobadas por ASTM D7566; algunas rutas tienen un límite menor (hasta 10 %).",
@@ -245,9 +247,9 @@
         "titulo": "IATA (s. f.). Sustainable Aviation Fuel (SAF)",
         "url": "https://www.iata.org/en/programs/sustainability/sustainable-aviation-fuel-saf/",
         "anio": null,
-        "consultado": "2026-10-26",
+        "consultado": "2026-10-27",
         "tipo": "primaria",
-        "verificacion": "informe"
+        "verificacion": "lectura"
       }
     ],
     "informe": {
@@ -312,9 +314,9 @@
           "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
           "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
           "anio": 2026,
-          "consultado": "2026-10-26",
+          "consultado": "2026-10-27",
           "tipo": "primaria",
-          "verificacion": "buscador"
+          "verificacion": "lectura"
         }
       ],
       "contexto": "Capacidad mundial de e-SAF en operación o en construcción, según IATA.",
@@ -328,9 +330,9 @@
           "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
           "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
           "anio": 2026,
-          "consultado": "2026-10-26",
+          "consultado": "2026-10-27",
           "tipo": "primaria",
-          "verificacion": "buscador"
+          "verificacion": "lectura"
         }
       ],
       "contexto": "Plantas de e-SAF en operación en el mundo, según IATA.",
@@ -346,9 +348,9 @@
           "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
           "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
           "anio": 2026,
-          "consultado": "2026-10-26",
+          "consultado": "2026-10-27",
           "tipo": "primaria",
-          "verificacion": "informe"
+          "verificacion": "lectura"
         }
       ],
       "informe": {
@@ -706,9 +708,9 @@
             "titulo": "ATAG: Next five years are crucial to aviation decarbonisation journey (febrero de 2026)",
             "url": "https://atag.org/news/next-five-years-are-crucial-to-aviation-decarbonisation-journey/",
             "anio": 2026,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "secundaria",
-            "verificacion": "informe"
+            "verificacion": "lectura"
           }
         ],
         "informe": {
@@ -738,9 +740,9 @@
             "titulo": "IATA (s. f.). Sustainable Aviation Fuel (SAF)",
             "url": "https://www.iata.org/en/programs/sustainability/sustainable-aviation-fuel-saf/",
             "anio": null,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "informe"
+            "verificacion": "lectura"
           }
         ],
         "informe": {

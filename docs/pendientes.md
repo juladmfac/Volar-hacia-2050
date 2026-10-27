@@ -2,10 +2,44 @@
 
 Lo que figura acá no se resuelve de memoria: se resuelve con una fuente y se pasa a `data/`.
 
-## Fuentes a releer (verificadas vía buscador)
-El 24/10/2026 la red del entorno no permitía abrir los sitios de las fuentes, así que se confirmaron con el resumen de un buscador y quedaron marcadas `verificacion: "buscador"` (en la UI: "a releer"). Hay que abrir cada una, confirmar el dato y pasarla a `"lectura"`. Para eso hay que permitir esos dominios en la configuración de red del entorno o releerlas a mano. El panel `?revision=1` las lista todas.
+## Fuentes a releer
+El 27/10/2026, con la red abierta, se releyeron las 100 fuentes que estaban confirmadas solo vía buscador o citadas por los informes (185 usos en `data/`). 128 usos quedaron como `verificacion: "lectura"`. Se registró un conflicto (sobrecosto del SAF de 2025: 2.900 o 3.600 millones de USD según el documento de IATA). Lo que sigue sin confirmar, y por qué:
 
-Dominios: iata.org, eur-lex.europa.eu, consilium.europa.eu, transport.ec.europa.eu, easa.europa.eu, icao.int, atag.org, afdc.energy.gov, ehang.com, ir.ehang.com, jobyaviation.com, backend.ainonline.com, investors.archer.com, wam.ae, airdatanews.com, marketscreener.com, energy.gov, businesswire.com, ainonline.com, urbanairmobilitynews.com.
+- icao.int pide verificación de navegador. (aerodromo.json: ala_plegable/envergadura_plegada_m; aerodromo.json: ala_plegable/envergadura_vuelo_m; saf.json: metas/0/combustibles_pct)
+- FlightGlobal: muro de pago; solo se ve el titular (777-9 habilitado para la siguiente fase de certificación, 7/6/2026). (aerodromo.json: ala_plegable/estado)
+- www2023.icao.int no responde. (aerodromo.json: ala_plegable/norma)
+- gov.br devuelve una página sin las coordenadas; el PDF no bajó. (cities.json: ciudades/0/sitios_coordenadas/0/coordenadas)
+- helis.com pide verificación de navegador. (cities.json: ciudades/0/sitios_coordenadas/2/coordenadas)
+- businesswire no responde. (energy_carriers.json: portadores/0/energia_especifica)
+- ir.ehang.com pide verificación de navegador. (energy_carriers.json: portadores/0/estado_uso_evtol; vehicles.json: vehiculos/0/certificacion; vehicles.json: vehiculos/0/estado; vehicles.json: vehiculos/0/hitos/2)
+- La página del DOE no muestra 120 MJ/kg: solo dice que el hidrógeno tiene la mayor energía por masa. (energy_carriers.json: portadores/1/energia_especifica)
+- La página del DOE no muestra la cifra de energía por volumen. (energy_carriers.json: portadores/1/densidad_energetica_volumetrica)
+- FlightGlobal: muro de pago. (propulsion.json: programas/8/hito; propulsion.json: programas/8/proximo; tecnologias.json: tecnologias/17/hito)
+- Aviation Week (18/07/2026) confirma el módulo frontal a escala real, pero no menciona el vuelo con Airbus en 2029: habla de ensayos en tierra y en vuelo «para 2030». (propulsion.json: programas/8/proximo)
+- La página de Airbus de 2025 no carga su contenido en el texto descargado. (propulsion.json: programas/10/hito; propulsion.json: programas/10/proximo)
+- nasdaq.com no responde. (propulsion.json: programas/12/hito; propulsion.json: programas/12/proximo; tecnologias.json: tecnologias/45/hito)
+- El comunicado de IATA no menciona el 6 % de ReFuelEU para 2030 (el dato está confirmado en el Anexo I del reglamento). (propulsion.json: programas/13/proximo)
+- Boom dice «2026 sprint core engine test», sin precisar «comienzos de 2026». (propulsion.json: programas/14/proximo)
+- El comunicado de IATA dice «hasta cinco veces» el precio del combustible fósil; el rango «2 a 5 veces» figura en el informe completo según la prensa. (saf.json: precio_relativo)
+- consilium.europa.eu pide verificación de navegador. (saf.json: mandatos/0/saf_pct/0; saf.json: mandatos/0/saf_pct/1; saf.json: mandatos/0/saf_pct/5; saf.json: mandatos/0/sintetico_pct/4)
+- austrianairlines.ag pide verificación de navegador. (tecnologias.json: tecnologias/10/hito)
+- La página de la NASA no muestra en el texto descargado el modelo de 40 pulgadas, la fecha ni los 15 vuelos. (tecnologias.json: tecnologias/13/hito)
+- airbus.com bloqueó la descarga (Incapsula). (tecnologias.json: tecnologias/18/hito; tecnologias.json: tecnologias/36/hito)
+- La nota de WFAE trata el préstamo para el Z4; no confirma el primer vuelo del Jet1 en 2027. (tecnologias.json: tecnologias/20/hito)
+- safran-group.com pide verificación de navegador. (tecnologias.json: tecnologias/21/hito; tecnologias.json: tecnologias/31/hito)
+- axios.com pide verificación de navegador. (tecnologias.json: tecnologias/22/hito)
+- La presentación de la NASA confirma 5–10 % de menor consumo; no se encontró el núcleo en banco a fines de 2028. (tecnologias.json: tecnologias/27/hito)
+- La página del HyTEC no muestra en el texto descargado que el proyecto haya concluido. (tecnologias.json: tecnologias/27/hito)
+- La página de CFM no tiene el texto en la descarga. (tecnologias.json: tecnologias/28/hito)
+- El PDF de Pipistrel no tiene texto extraíble. (tecnologias.json: tecnologias/32/hito)
+- Aerospace America: no aparece en el texto descargado la meta de la Parte 23 a fines de 2026. (tecnologias.json: tecnologias/33/hito)
+- satnews redirige y no entrega el texto. (tecnologias.json: tecnologias/40/hito)
+- aeromorning.com pide verificación de navegador. (tecnologias.json: tecnologias/47/hito)
+- La página del EH216-S no dice «multicóptero» en el texto; la configuración se ve en las imágenes. (vehicles.json: vehiculos/0/configuracion)
+- investors.archer.com pide verificación de navegador. (vehicles.json: vehiculos/2/asientos; vehicles.json: vehiculos/2/certificacion; vehicles.json: vehiculos/2/estado; vehicles.json: vehiculos/2/hitos/0)
+- La página de WAM no trae el texto del artículo en la descarga. (vehicles.json: vehiculos/2/certificacion; vehicles.json: vehiculos/2/estado; vehicles.json: vehiculos/2/hitos/0)
+
+Los sitios que piden verificación de navegador (icao.int, consilium.europa.eu, eur-lex, ir.ehang.com, investors.archer.com, safran-group.com y otros) no se abren desde el entorno: hay que guardar la página a mano, como se hizo con el Reglamento ReFuelEU y la Resolución ANAC 550/2025.
 
 ## Datos de la app
 - `data/cities.json`, São Paulo: el rol y el estado no tienen fuente; los vertipuertos anunciados solo tienen fuentes secundarias (falta el comunicado de UrbanV) y un conflicto de cantidad (5 vertipuertos o hasta 7 FBO).

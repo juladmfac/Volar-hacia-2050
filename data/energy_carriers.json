@@ -76,9 +76,9 @@
                 "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
                 "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
                 "anio": 2024,
-                "consultado": "2026-10-26",
+                "consultado": "2026-10-27",
                 "tipo": "primaria",
-                "verificacion": "informe"
+                "verificacion": "lectura"
               }
             ],
             "informe": {
@@ -99,9 +99,9 @@
                 "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
                 "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
                 "anio": 2024,
-                "consultado": "2026-10-26",
+                "consultado": "2026-10-27",
                 "tipo": "primaria",
-                "verificacion": "informe"
+                "verificacion": "lectura"
               }
             ],
             "informe": {
@@ -125,9 +125,9 @@
                 "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
                 "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
                 "anio": 2024,
-                "consultado": "2026-10-26",
+                "consultado": "2026-10-27",
                 "tipo": "primaria",
-                "verificacion": "informe"
+                "verificacion": "lectura"
               }
             ],
             "informe": {
@@ -148,9 +148,9 @@
                 "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
                 "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
                 "anio": 2024,
-                "consultado": "2026-10-26",
+                "consultado": "2026-10-27",
                 "tipo": "primaria",
-                "verificacion": "buscador"
+                "verificacion": "lectura"
               }
             ],
             "informe": {
@@ -175,9 +175,9 @@
                 "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
                 "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
                 "anio": 2024,
-                "consultado": "2026-10-26",
+                "consultado": "2026-10-27",
                 "tipo": "primaria",
-                "verificacion": "informe"
+                "verificacion": "lectura"
               }
             ],
             "informe": {
@@ -198,9 +198,9 @@
                 "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
                 "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
                 "anio": 2024,
-                "consultado": "2026-10-26",
+                "consultado": "2026-10-27",
                 "tipo": "primaria",
-                "verificacion": "informe"
+                "verificacion": "lectura"
               }
             ],
             "informe": {
@@ -233,7 +233,8 @@
           }
         ],
         "unidad": "MJ/kg",
-        "contexto": "Hidrógeno como sustancia, sin tanque (poder calorífico inferior). La misma fuente da 44 MJ/kg para la nafta."
+        "contexto": "Hidrógeno como sustancia, sin tanque (poder calorífico inferior). La misma fuente da 44 MJ/kg para la nafta.",
+        "nota": "Relectura del 27/10/2026: la página del DOE (que ahora redirige a /cmei/fuels/hydrogen-storage) ya no muestra la cifra; sí aparece en copias antiguas del mismo texto. Falta una fuente primaria vigente."
       },
       "densidad_energetica_volumetrica": {
         "valor": 8,
@@ -252,7 +253,8 @@
         "contexto": "Hidrógeno líquido, sin tanque. La misma fuente da 32 MJ/L para la nafta.",
         "conflicts": [
           "Un documento del programa de hidrógeno del DOE (2000) da entre 8,4 y 10,43 MJ/L para el hidrógeno líquido; la página actual del DOE da 8 MJ/L."
-        ]
+        ],
+        "nota": "Relectura del 27/10/2026: la página del DOE (que ahora redirige a /cmei/fuels/hydrogen-storage) ya no muestra la cifra; sí aparece en copias antiguas del mismo texto. Falta una fuente primaria vigente."
       },
       "estado_uso_evtol": {
         "valor": null

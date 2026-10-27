@@ -42,9 +42,9 @@
             "titulo": "EHang: EH216-S (página de producto)",
             "url": "https://www.ehang.com/ehang216s/",
             "anio": null,
-            "consultado": "2026-10-26",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Alcance que declara EHang en su página de producto.",
@@ -82,17 +82,17 @@
             "titulo": "EHang EH216-S obtiene el certificado de tipo de la CAAC (13/10/2023)",
             "url": "https://www.ehang.com/news/990.html",
             "anio": 2023,
-            "consultado": "2026-10-24",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           },
           {
             "titulo": "EHang Secures Production Certificate from CAAC (07/04/2024)",
             "url": "https://www.ehang.com/news/1058.html",
             "anio": 2024,
-            "consultado": "2026-10-24",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           },
           {
             "titulo": "EHang's EH216-S eVTOL Operators Obtain Air Operator Certificates (30/03/2025)",
@@ -114,9 +114,9 @@
               "titulo": "EHang EH216-S obtiene el certificado de tipo de la CAAC (13/10/2023)",
               "url": "https://www.ehang.com/news/990.html",
               "anio": 2023,
-              "consultado": "2026-10-24",
+              "consultado": "2026-10-27",
               "tipo": "primaria",
-              "verificacion": "buscador"
+              "verificacion": "lectura"
             }
           ],
           "fecha": "2023-10-13"
@@ -129,9 +129,9 @@
               "titulo": "EHang Secures Production Certificate from CAAC (07/04/2024)",
               "url": "https://www.ehang.com/news/1058.html",
               "anio": 2024,
-              "consultado": "2026-10-24",
+              "consultado": "2026-10-27",
               "tipo": "primaria",
-              "verificacion": "buscador"
+              "verificacion": "lectura"
             }
           ],
           "fecha": "2024-04-07"
@@ -177,9 +177,9 @@
             "titulo": "Joby Aviation: Technology (especificaciones)",
             "url": "https://www.jobyaviation.com/technology",
             "anio": null,
-            "consultado": "2026-10-24",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Seis hélices eléctricas que basculan de vertical a horizontal."
@@ -192,9 +192,9 @@
             "titulo": "Joby Aviation: Technology (especificaciones)",
             "url": "https://www.jobyaviation.com/technology",
             "anio": null,
-            "consultado": "2026-10-24",
+            "consultado": "2026-10-27",
             "tipo": "primaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ]
       },
@@ -211,9 +211,9 @@
             "titulo": "Joby flies first FAA-conforming eVTOL (AIN, 12/03/2026)",
             "url": "https://backend.ainonline.com/aviation-news/futureflight/2026-03-12/joby-flies-first-faa-conforming-evtol",
             "anio": 2026,
-            "consultado": "2026-10-24",
+            "consultado": "2026-10-27",
             "tipo": "secundaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Sin certificado de tipo emitido.",
@@ -227,9 +227,9 @@
             "titulo": "Joby flies first FAA-conforming eVTOL (AIN, 12/03/2026)",
             "url": "https://backend.ainonline.com/aviation-news/futureflight/2026-03-12/joby-flies-first-faa-conforming-evtol",
             "anio": 2026,
-            "consultado": "2026-10-24",
+            "consultado": "2026-10-27",
             "tipo": "secundaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "nota": "Coincide con Aviacion2050_ClasificacionTecnologica_v01 (18/10/2026)."
@@ -243,9 +243,9 @@
               "titulo": "Joby flies first FAA-conforming eVTOL (AIN, 12/03/2026)",
               "url": "https://backend.ainonline.com/aviation-news/futureflight/2026-03-12/joby-flies-first-faa-conforming-evtol",
               "anio": 2026,
-              "consultado": "2026-10-24",
+              "consultado": "2026-10-27",
               "tipo": "secundaria",
-              "verificacion": "buscador"
+              "verificacion": "lectura"
             }
           ],
           "fecha": "2026-03-11",
@@ -383,17 +383,17 @@
             "titulo": "Eve pushes eVTOL certification target to 2028 (AirDataNews)",
             "url": "https://www.airdatanews.com/eve-pushes-e-vtol-certification-target-to-2028-as-development-timeline-slips-again/",
             "anio": 2026,
-            "consultado": "2026-10-24",
+            "consultado": "2026-10-27",
             "tipo": "secundaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           },
           {
             "titulo": "Embraer's Eve vows to spend cautiously, eyes 2028 flying car certification (Reuters vía MarketScreener)",
             "url": "https://in.marketscreener.com/news/embraer-s-eve-vows-to-spend-cautiously-eyes-2028-flying-car-certification-ce7f5cd9db8cf424",
             "anio": 2026,
-            "consultado": "2026-10-24",
+            "consultado": "2026-10-27",
             "tipo": "secundaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Prototipo de ensayo pilotado a distancia."
@@ -406,17 +406,17 @@
             "titulo": "Eve pushes eVTOL certification target to 2028 (AirDataNews)",
             "url": "https://www.airdatanews.com/eve-pushes-e-vtol-certification-target-to-2028-as-development-timeline-slips-again/",
             "anio": 2026,
-            "consultado": "2026-10-24",
+            "consultado": "2026-10-27",
             "tipo": "secundaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           },
           {
             "titulo": "Embraer's Eve vows to spend cautiously, eyes 2028 flying car certification (Reuters vía MarketScreener)",
             "url": "https://in.marketscreener.com/news/embraer-s-eve-vows-to-spend-cautiously-eyes-2028-flying-car-certification-ce7f5cd9db8cf424",
             "anio": 2026,
-            "consultado": "2026-10-24",
+            "consultado": "2026-10-27",
             "tipo": "secundaria",
-            "verificacion": "buscador"
+            "verificacion": "lectura"
           }
         ],
         "contexto": "Antes apuntaba a 2026 y luego a 2027.",

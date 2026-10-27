@@ -244,30 +244,140 @@
       "id": "guangzhou_shenzhen",
       "nombre": "Guangzhou y Shenzhen",
       "rol": {
-        "valor": null
+        "valor": "Guangzhou es la sede de EHang. Su filial en Guangzhou y su empresa conjunta en Hefei recibieron el 30/03/2025 los primeros certificados de operador de la CAAC para vuelos comerciales con pasajeros en aeronaves sin piloto (EH216-S), en sitios autorizados de esas dos ciudades. Empiezan por vuelos turísticos y de paseo urbano.",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "EHang: EH216-S operators obtain Air Operator Certificates (30/03/2025)",
+            "url": "https://www.ehang.com/news/1196.html",
+            "anio": 2025,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          },
+          {
+            "titulo": "EHang Earns World’s First Air Operator Certificate for eVTOL Aircraft (AIN, 31/03/2025)",
+            "url": "https://www.ainonline.com/aviation-news/futureflight/2025-03-31/ehang-earns-worlds-first-evtol-air-operator-certificate",
+            "anio": 2025,
+            "consultado": "2026-10-27",
+            "tipo": "secundaria",
+            "verificacion": "lectura"
+          }
+        ]
       },
       "estado": {
-        "valor": null
+        "valor": "en_preparacion",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "EHang: EH216-S operators obtain Air Operator Certificates (30/03/2025)",
+            "url": "https://www.ehang.com/news/1196.html",
+            "anio": 2025,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          },
+          {
+            "titulo": "EHang Earns World’s First Air Operator Certificate for eVTOL Aircraft (AIN, 31/03/2025)",
+            "url": "https://www.ainonline.com/aviation-news/futureflight/2025-03-31/ehang-earns-worlds-first-evtol-air-operator-certificate",
+            "anio": 2025,
+            "consultado": "2026-10-27",
+            "tipo": "secundaria",
+            "verificacion": "lectura"
+          }
+        ],
+        "contexto": "Hay certificados de operador para vuelos turísticos en sitios fijos. No se confirmó con fuente primaria un servicio de taxi aéreo entre distintos puntos de la ciudad."
       },
       "pendientes": [
-        "Si ya se venden boletos al público o faltan autorizaciones (fuentes contradictorias)",
-        "Fecha de inicio del servicio en Guangzhou (2023, 2024 o 2026 según la fuente)",
-        "Shenzhen: plan de más de 1.200 sitios a fines de 2026 (plan, no confirmado como construido)",
-        "Guangzhou: 5 ubicaciones de vertipuertos aprobadas en junio de 2026"
+        "Venta de pasajes al público: un blog del sector dice que hay vuelos turísticos pagos en Guangzhou desde marzo de 2026; falta fuente primaria.",
+        "Shenzhen: plan de más de 1.200 sitios de despegue y aterrizaje para fines de 2026, citado por consultoras; falta el documento del gobierno de Shenzhen.",
+        "EHang retiró su meta de ingresos de 2026 en el informe del segundo trimestre (según la prensa financiera): leer el comunicado (ir.ehang.com pide verificación de navegador)."
       ]
     },
     {
       "id": "dubai_abu_dhabi",
       "nombre": "Dubái y Abu Dabi",
       "rol": {
-        "valor": null
+        "valor": "Dubái: red de taxis aéreos de Joby, con exclusividad de seis años, junto con la RTA y Skyports. El vertipuerto junto al aeropuerto DXB (VDX), con dos pads, es el primero certificado por la GCAA para operación comercial. Abu Dabi: Archer prepara el Midnight con Abu Dhabi Aviation y busca un certificado de tipo restringido de la GCAA.",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Joby Aviation: Dubai Air Taxi Network Takes Flight (17/11/2025)",
+            "url": "https://ir.jobyaviation.com/news-events/press-releases/detail/162/dubai-air-taxi-network-takes-flight-joby-completes",
+            "anio": 2025,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          },
+          {
+            "titulo": "Dubai Airport establishes world’s first commercial vertiport (AeroTime, 17/04/2026)",
+            "url": "https://www.aerotime.aero/articles/dubai-airport-worlds-first-commercial-air-taxi-vertiport-joby-skyports",
+            "anio": 2026,
+            "consultado": "2026-10-27",
+            "tipo": "secundaria",
+            "verificacion": "lectura"
+          },
+          {
+            "titulo": "Dubai Unveils First Certified Commercial Vertiport for Electric Air Taxis in the World (Aviation A2Z, 07/07/2026)",
+            "url": "https://aviationa2z.com/index.php/2026/07/07/dubai-unveils-worlds-first-certified-commercial-vertiport/",
+            "anio": 2026,
+            "consultado": "2026-10-27",
+            "tipo": "secundaria",
+            "verificacion": "lectura"
+          },
+          {
+            "titulo": "Archer Aviation starts ramp up of Abu Dhabi commercial flight programme (Urban Air Mobility News, 27/02/2025)",
+            "url": "https://www.urbanairmobilitynews.com/air-taxis/archer-aviation-starts-ramp-up-of-abu-dhabi-commercial-flight-programme-passenger-flight-this-year/",
+            "anio": 2025,
+            "consultado": "2026-10-27",
+            "tipo": "secundaria",
+            "verificacion": "lectura"
+          },
+          {
+            "titulo": "Archer Targets UAE Restricted Type Certificate For Early Commercial Ops (Aviation Week, 13/05/2026)",
+            "url": "https://aviationweek.com/aerospace/advanced-air-mobility/archer-targets-uae-restricted-type-certificate-early-commercial-ops",
+            "anio": 2026,
+            "consultado": "2026-10-27",
+            "tipo": "secundaria",
+            "verificacion": "lectura"
+          }
+        ]
       },
       "estado": {
-        "valor": null
+        "valor": "en_preparacion",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Joby Aviation: Dubai Air Taxi Network Takes Flight (17/11/2025)",
+            "url": "https://ir.jobyaviation.com/news-events/press-releases/detail/162/dubai-air-taxi-network-takes-flight-joby-completes",
+            "anio": 2025,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          },
+          {
+            "titulo": "Dubai Unveils First Certified Commercial Vertiport for Electric Air Taxis in the World (Aviation A2Z, 07/07/2026)",
+            "url": "https://aviationa2z.com/index.php/2026/07/07/dubai-unveils-worlds-first-certified-commercial-vertiport/",
+            "anio": 2026,
+            "consultado": "2026-10-27",
+            "tipo": "secundaria",
+            "verificacion": "lectura"
+          },
+          {
+            "titulo": "Archer Targets UAE Restricted Type Certificate For Early Commercial Ops (Aviation Week, 13/05/2026)",
+            "url": "https://aviationweek.com/aerospace/advanced-air-mobility/archer-targets-uae-restricted-type-certificate-early-commercial-ops",
+            "anio": 2026,
+            "consultado": "2026-10-27",
+            "tipo": "secundaria",
+            "verificacion": "lectura"
+          }
+        ],
+        "contexto": "Al 27/10/2026 no se encontró confirmación de vuelos con pasajeros: Joby apunta a empezar el servicio comercial en Dubái en 2026, y Archer busca un certificado de tipo restringido para operar en Abu Dabi."
       },
       "pendientes": [
-        "Fecha real de lanzamiento en Dubai y si ya ocurrió (hoy 9/10/2026)",
-        "Archer en Abu Dhabi: objetivo Q3 2026 según el resumen; sin verificar"
+        "Confirmar el inicio del servicio con pasajeros de Joby en Dubái y la fecha de la certificación de la GCAA.",
+        "Abu Dabi: estado del certificado de tipo restringido del Midnight (investors.archer.com pide verificación de navegador).",
+        "Fuente primaria de la certificación del vertipuerto VDX (Dubai Media Office o GCAA); hoy solo prensa especializada."
       ]
     }
   ]

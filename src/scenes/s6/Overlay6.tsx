@@ -4,7 +4,6 @@ import Headline from '../../scroll/Headline.tsx'
 import DataValue from '../../components/DataValue.tsx'
 import DraftTag from '../../components/DraftTag.tsx'
 import StatusBadge from '../../components/StatusBadge.tsx'
-import SinVerificar from '../../components/SinVerificar.tsx'
 import Footnotes, { useFootnotes } from '../../components/Footnotes.tsx'
 import WingspanChart from '../../components/charts/WingspanChart.tsx'
 import VertiportMap from '../../components/charts/VertiportMap.tsx'
@@ -157,23 +156,25 @@ function Normas() {
 
 function OtrasCiudades() {
   const otras = ciudades.filter((c) => c.id !== 'sao_paulo')
+  const { notes, cite } = useFootnotes(otras.flatMap((c) => [c.estado, c.rol]))
   return (
     <div className="mt-8">
       <p className="eyebrow">{S6_TEXT.ciudadesOtras}</p>
       <div className="mt-3 grid gap-3 sm:grid-cols-2">
         {otras.map((c) => (
           <div key={c.id} className="border hairline p-3 text-[0.8125rem]">
-            <p className="font-medium">{c.nombre}</p>
-            <p className="mt-1 text-tenue">
-              Estado: <StatusBadge estado={c.estado} />
+            <p className="flex flex-wrap items-baseline justify-between gap-2 font-medium">
+              {c.nombre}
+              <StatusBadge estado={c.estado} />
             </p>
-            <p className="mt-1 text-tenue">
-              Rol: {c.rol.hasValue ? String(c.rol.value) : <SinVerificar />}
-            </p>
-            <p className="mt-2 text-[0.75rem] text-tenue">Las fuentes consultadas se contradicen: queda sin verificar hasta contrastarlas.</p>
+            <div className="mt-2 text-tenue">
+              <DataValue field={c.rol} cite={cite} />
+            </div>
+            {c.estado.contexto && <p className="mt-2 text-[0.75rem] text-tenue">{c.estado.contexto}</p>}
           </div>
         ))}
       </div>
+      <Footnotes notes={notes} className="mt-3" />
     </div>
   )
 }

@@ -406,6 +406,14 @@
               "consultado": "2026-10-26",
               "tipo": "primaria",
               "verificacion": "buscador"
+            },
+            {
+              "titulo": "EASA: EU sustainable aviation fuel supply exceeds 2025 ReFuelEU Aviation target",
+              "url": "https://www.easa.europa.eu/en/newsroom-and-events/press-releases/eu-sustainable-aviation-fuel-supply-exceeds-2025-refueleu-aviation-target",
+              "anio": 2026,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
             }
           ],
           "contexto": "Parte mínima de SAF en el combustible entregado en aeropuertos de la UE.",
@@ -441,13 +449,24 @@
       ],
       "sintetico_pct": [
         {
-          "valor": null,
-          "unidad": "%",
-          "conflicts": [
-            "Consejo de la UE y Comisión Europea: 1,2 % de combustibles sintéticos desde 2030.",
-            "Resumen del reglamento en EUR-Lex: 0,7 % en 2030."
+          "anio": 2030,
+          "valor": 0.7,
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "EASA: ReFuelEU Aviation Annual Technical Report 2026, 2025 in review",
+              "url": "https://www.easa.europa.eu/en/document-library/general-publications/refueleu-aviation-annual-technical-report-2026",
+              "anio": 2026,
+              "consultado": "2026-10-27",
+              "tipo": "primaria",
+              "verificacion": "lectura"
+            }
           ],
-          "anio": 2030
+          "contexto": "Parte mínima de combustibles sintéticos en cada año desde 2030. Además, el promedio de 2030 y 2031 debe ser al menos 1,2 %.",
+          "conflicts": [
+            "La página de la Comisión Europea dice «1,2 % desde 2030», sin aclarar que es el promedio mínimo de 2030 y 2031."
+          ],
+          "nota": "Antes figuraba como conflicto entre 1,2 % (Consejo y Comisión) y 0,7 % (resumen de EUR-Lex). El Informe Técnico Anual 2026 de EASA aclara que son dos exigencias distintas: 0,7 % mínimo anual y 1,2 % promedio 2030–2031."
         },
         {
           "valor": 35,
@@ -486,22 +505,23 @@
               "titulo": "EASA: ReFuelEU Aviation Annual Technical Report 2026, 2025 in review",
               "url": "https://www.easa.europa.eu/en/document-library/general-publications/refueleu-aviation-annual-technical-report-2026",
               "anio": 2026,
-              "consultado": "2026-10-26",
+              "consultado": "2026-10-27",
               "tipo": "primaria",
-              "verificacion": "buscador"
+              "verificacion": "lectura"
             },
             {
               "titulo": "EASA: EU sustainable aviation fuel supply exceeds 2025 ReFuelEU Aviation target",
               "url": "https://www.easa.europa.eu/en/newsroom-and-events/press-releases/eu-sustainable-aviation-fuel-supply-exceeds-2025-refueleu-aviation-target",
               "anio": 2026,
-              "consultado": "2026-10-26",
+              "consultado": "2026-10-27",
               "tipo": "primaria",
-              "verificacion": "buscador"
+              "verificacion": "lectura"
             }
           ],
           "contexto": "SAF entregado en aeropuertos de la UE en 2025: 1,1 Mt sobre 39,3 Mt de combustible, por encima del mínimo de 2 %.",
           "conflicts": [],
-          "anio": 2025
+          "anio": 2025,
+          "nota": "El comunicado de EASA del 17/09/2026 redondea a 2,8 %; el Informe Técnico Anual 2026 dice 2,79 % (39,3 Mt de combustible, 1,1 Mt de SAF)."
         }
       ]
     }

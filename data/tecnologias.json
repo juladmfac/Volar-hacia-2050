@@ -6,8 +6,20 @@
       "nombre": "Compuestos de fibra de carbono (CFRP), base instalada",
       "tema": "peso",
       "hito": {
-        "valor": null,
-        "nota": "Hito: En el A350 XWB, el 53 % de la estructura es CFRP (Airbus, en la conferencia de 2021, A p52). · Citas sin URL pública en el informe: Airbus, en la conferencia de 2021, A p52"
+        "valor": "En el A350-900, el 53 % de los materiales es compuesto de fibra de carbono: alas, cajón central, empenaje y revestimiento del fuselaje (presentación de Airbus, 2015).",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Airbus: Bonded Repairs Applications to Composite Pressurized Fuselage (presentación, septiembre de 2015)",
+            "url": "https://faa.niar.wichita.edu/Portals/0/AirbusBondedRepairApplication.pdf",
+            "anio": 2015,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          }
+        ],
+        "nota": "Antes figuraba sin URL: el informe lo tomaba de la conferencia de 2021 (A p52). La presentación de Airbus da el reparto de materiales del A350-900 incluido el tren de aterrizaje.",
+        "conflicts": []
       },
       "mueve": {
         "valor": "Peso vacío (OEW)",
@@ -109,8 +121,20 @@
       "nombre": "Fabricación aditiva en serie",
       "tema": "peso",
       "hito": {
-        "valor": null,
-        "nota": "Hito: Inyector del motor LEAP: 20 piezas en 1 y 25 % menos de peso (GE Aerospace, 2018). · Citas sin URL pública en el informe: GE Aerospace, 2018"
+        "valor": "Punta del inyector de combustible del LEAP: de unas 20 piezas soldadas a una sola, con cerca de 25 % menos peso; 30.000 unidades impresas a octubre de 2018 (GE, 2018).",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "GE Aerospace: Manufacturing Milestone: 30,000 Additive Fuel Nozzles (04/10/2018)",
+            "url": "https://www.geaerospace.com/news/articles/manufacturing/manufacturing-milestone-30000-additive-fuel-nozzles",
+            "anio": 2018,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          }
+        ],
+        "nota": "Antes figuraba sin URL (GE Aerospace, 2018).",
+        "conflicts": []
       },
       "mueve": {
         "valor": "Peso de componentes",
@@ -325,8 +349,20 @@
       "nombre": "Compuestos termoplásticos soldados (demostrador MFFD)",
       "tema": "peso",
       "hito": {
-        "valor": null,
-        "nota": "Hito: Fuselaje de 8 × 4 m: más de 10 % menos peso estructural a costo neutro y más de 40 tecnologías validadas (Airbus, 2025b). · Citas sin URL pública en el informe: Airbus, 2025b"
+        "valor": "Demostrador de fuselaje de 8 × 4 m en compuesto termoplástico soldado (CF/LM-PAEK), proyecto de Clean Sky 2 entre 2019 y 2023, con el objetivo de bajar el peso del fuselaje y el costo recurrente (DLR, 2024).",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "DLR: Multifunctional Fuselage Demonstrator (MFFD), ficha del proyecto (JEC 2025)",
+            "url": "https://www.dlr.de/en/bt/multimedia/publications/jec-2025/multifunctional-fuselage-demonstrator-mffd/27658_onepager_mffd_en_110924.pdf/@@download/file",
+            "anio": 2024,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          }
+        ],
+        "nota": "El informe cita «más de 10 % menos peso estructural a costo neutro y más de 40 tecnologías validadas» (Airbus, 2025b); no se encontró una fuente pública con esas cifras, así que no se cargan.",
+        "conflicts": []
       },
       "mueve": {
         "valor": "Peso estructural; cadencia (se sueldan, no se remachan)",
@@ -1308,8 +1344,20 @@
       "nombre": "Flujo laminar natural (demostrador BLADE)",
       "tema": "resistencia",
       "hito": {
-        "valor": null,
-        "nota": "Hito: En un A340 logró tramos extensos de flujo laminar, con un impacto del orden del 5 % de consumo a nivel avión (Airbus / Clean Sky, 2020). · Citas sin URL pública en el informe: Airbus / Clean Sky, 2020"
+        "valor": "Ensayos en vuelo del A340 BLADE con alas exteriores de flujo laminar natural, dentro de Clean Sky: la campaña midió la extensión laminar y el efecto de las imperfecciones de la superficie (Airbus, ICAS 2020).",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Gibson, Soucheleau y Rogers (Airbus): BLADE – Natural Laminar Flow Flight Testing, ICAS 2020",
+            "url": "https://www.icas.org/icas_archive/ICAS2020/data/papers/ICAS2020_0220_paper.pdf",
+            "anio": 2020,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          }
+        ],
+        "nota": "El informe cita un impacto del orden del 5 % de consumo a nivel avión (Airbus / Clean Sky, 2020). En la prensa ese 5 % aparece como objetivo del proyecto, no como resultado medido; no se carga.",
+        "conflicts": []
       },
       "mueve": {
         "valor": "Fricción: capa límite laminar",
@@ -2578,8 +2626,38 @@
       "nombre": "eVTOL autónomo certificado en China (EHang EH216-S)",
       "tema": "sustentacion",
       "hito": {
-        "valor": null,
-        "nota": "Hito: Certificados de tipo (oct. 2023), de producción (abr. 2024) y de operador (28/03/2025) de la CAAC; sin certificado extranjero (EHang, 2023–2025). · Citas sin URL pública en el informe: EHang, 2023–2025"
+        "valor": "Certificados de la CAAC para el EH216-S: de tipo (13/10/2023), de producción (07/04/2024) y de operador para sus dos operadoras (anunciado el 30/03/2025). Sin certificado extranjero.",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "EHang: Type Certificate for EH216-S issued by CAAC (13/10/2023)",
+            "url": "https://www.ehang.com/news/990.html",
+            "anio": 2023,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          },
+          {
+            "titulo": "EHang: Production Certificate from CAAC (07/04/2024)",
+            "url": "https://www.ehang.com/news/1058.html",
+            "anio": 2024,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          },
+          {
+            "titulo": "EHang: EH216-S operators obtain Air Operator Certificates (30/03/2025)",
+            "url": "https://www.ehang.com/news/1196.html",
+            "anio": 2025,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          }
+        ],
+        "nota": "La ausencia de un certificado extranjero sale del informe; no tiene fuente que lo afirme.",
+        "conflicts": [
+          "El informe da el 28/03/2025 para los certificados de operador; EHang los anunció el 30/03/2025."
+        ]
       },
       "mueve": {
         "valor": "Sustentación vertical sin piloto a bordo",
@@ -6316,8 +6394,28 @@
       "nombre": "Vertipuertos",
       "tema": "aerodromo",
       "hito": {
-        "valor": null,
-        "nota": "Hito: Guías provisorias de EASA (PTS-VPT-DSN, 2022) y de la FAA (EB 105A, 27/12/2024); no hay un Volumen III del Anexo 14 publicado (EASA, 2022; FAA, 2024). · Citas sin URL pública en el informe: EASA, 2022; FAA, 2024"
+        "valor": "Guías provisorias de diseño de EASA (PTS-VPT-DSN, marzo de 2022) y de la FAA (EB 105A, 27/12/2024).",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "EASA, Prototype Technical Specifications for the Design of VFR Vertiports (PTS-VPT-DSN), marzo de 2022",
+            "url": "https://www.easa.europa.eu/en/downloads/136259/en",
+            "anio": 2022,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          },
+          {
+            "titulo": "FAA, Engineering Brief No. 105A, Vertiport Design (27/12/2024)",
+            "url": "https://www.faa.gov/airports/engineering/engineering_briefs/eb_105a_vertiports",
+            "anio": 2024,
+            "consultado": "2026-10-27",
+            "tipo": "primaria",
+            "verificacion": "lectura"
+          }
+        ],
+        "nota": "El informe agrega que no hay un Volumen III del Anexo 14 publicado; icao.int no se puede leer desde el entorno.",
+        "conflicts": []
       },
       "mueve": {
         "valor": "Infraestructura para sustentación vertical",
@@ -6417,20 +6515,8 @@
     }
   ],
   "pendientes": [
-    "Hito sin URL pública en el informe: Compuestos de fibra de carbono (CFRP), base instalada",
-    "Hito sin URL pública en el informe: Fabricación aditiva en serie",
-    "Hito sin URL pública en el informe: Compuestos termoplásticos soldados (demostrador MFFD)",
     "Hito sin URL pública en el informe: Materiales estructurales de base biológica (Airbus)",
-    "Hito sin URL pública en el informe: Flujo laminar natural (demostrador BLADE)",
     "Hito sin URL pública en el informe: Ala morfante (forma adaptable en vuelo)",
-    "Hito sin URL pública en el informe: Ingestión de capa límite (boundary layer ingestion, BLI)",
-    "Hito sin URL pública en el informe: Ala arriostrada (truss-braced wing, TTBW)",
-    "Hito sin URL pública en el informe: Cuerpo integrado con el ala (blended wing body, BWB)",
-    "Hito sin URL pública en el informe: Sustentación soplada con propulsión distribuida (Electra EL9)",
-    "Hito sin URL pública en el informe: eVTOL tripulado de pasajeros (Joby S4, Archer Midnight, Eve)",
-    "Hito sin URL pública en el informe: eVTOL autónomo certificado en China (EHang EH216-S)",
-    "Hito sin URL pública en el informe: Rotor abierto (open fan, CFM RISE)",
-    "Hito sin URL pública en el informe: Regional eléctrico de baterías (Eviation Alice)",
-    "Hito sin URL pública en el informe: Vertipuertos"
+    "Hito sin URL pública en el informe: Ingestión de capa límite (boundary layer ingestion, BLI)"
   ]
 }

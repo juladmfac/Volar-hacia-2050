@@ -1,0 +1,329 @@
+{
+  "_nota": "Vector energético dominante por segmento y por año, en el escenario base del Informe v04 (Figura 7). Es especulación prospectiva fundamentada del autor: se muestra como proyectado. La celda de mayor incertidumbre es el hidrógeno en regional a 2040.",
+  "segmentos": [
+    {
+      "id": "aviacion_general",
+      "nombre": "Aviación general",
+      "celdas": [
+        {
+          "valor": "Fósil + eléctrico",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2030
+        },
+        {
+          "valor": "Eléctrico",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2035
+        },
+        {
+          "valor": "Eléctrico",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2040
+        },
+        {
+          "valor": "Eléctrico",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2050
+        }
+      ]
+    },
+    {
+      "id": "regional",
+      "nombre": "Regional (menos de 50 plazas)",
+      "celdas": [
+        {
+          "valor": "Fósil",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2030
+        },
+        {
+          "valor": "Híbrido o eléctrico",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2035
+        },
+        {
+          "valor": "Eléctrico + H₂",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2040
+        },
+        {
+          "valor": "Eléctrico + H₂",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2050
+        }
+      ]
+    },
+    {
+      "id": "corto",
+      "nombre": "Corto alcance",
+      "celdas": [
+        {
+          "valor": "Fósil + SAF",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2030
+        },
+        {
+          "valor": "SAF en mezcla",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2035
+        },
+        {
+          "valor": "SAF + híbrido",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2040
+        },
+        {
+          "valor": "SAF; H₂ incipiente",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2050
+        }
+      ]
+    },
+    {
+      "id": "medio",
+      "nombre": "Medio alcance",
+      "celdas": [
+        {
+          "valor": "Fósil + SAF",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2030
+        },
+        {
+          "valor": "SAF en mezcla",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2035
+        },
+        {
+          "valor": "SAF dominante",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2040
+        },
+        {
+          "valor": "SAF; H₂ marginal",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2050
+        }
+      ]
+    },
+    {
+      "id": "largo",
+      "nombre": "Largo alcance",
+      "celdas": [
+        {
+          "valor": "Fósil + SAF",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2030
+        },
+        {
+          "valor": "SAF en mezcla",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2035
+        },
+        {
+          "valor": "SAF dominante",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2040
+        },
+        {
+          "valor": "SAF",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2050
+        }
+      ]
+    },
+    {
+      "id": "evtol",
+      "nombre": "eVTOL",
+      "celdas": [
+        {
+          "valor": "Eléctrico",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2030
+        },
+        {
+          "valor": "Eléctrico",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2035
+        },
+        {
+          "valor": "Eléctrico",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2040
+        },
+        {
+          "valor": "Eléctrico",
+          "tipo": "especulacion",
+          "informe": {
+            "titulo": "Aviacion2050_Informe",
+            "version": "v04",
+            "fecha": "2026-09-10",
+            "autor": "Julian Ruarte",
+            "seccion": "3.6 Matriz de convivencia (Figura 7)"
+          },
+          "anio": 2050
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,875 @@
+{
+  "_nota": "Generado con tools/informes/propulsion_a_json.py desde Aviacion2050_NovedadesPropulsion_v01_20261018 (corte 18/10/2026), tabla «Estado por tecnología». Hitos y próximos hitos: datos verificados del informe, con sus fuentes sin releer (verificacion 'informe'); el próximo hito es lo que declara el desarrollador. TRL y penalización: estimación del autor.",
+  "programas": [
+    {
+      "id": "ge-aerospace-nasa-epfd-saab-340b-hibrido",
+      "nombre": "GE Aerospace / NASA EPFD (Saab 340B híbrido)",
+      "familia": "hibrido",
+      "hito": {
+        "valor": "Vuelo por encima de 30.000 ft y cruce del Atlántico en modo híbrido (anuncio 20/07/2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "GE Aerospace (2026). GE Aerospace partners NASA, BETA Technologies and Boeing: world's first high-altitude hybrid electric flight, 20/07/2026",
+            "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-partners-nasa-beta-technologies-and-boeing-worlds-first-high-altitude",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": null
+      },
+      "trl": {
+        "valor": "6",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Masa de baterías; aislación de alta tensión en altura",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "rtx-p-wc-dash-8-100-hibrido",
+      "nombre": "RTX / P&WC, Dash 8-100 híbrido",
+      "familia": "hibrido",
+      "hito": {
+        "valor": "Ensayo en tierra del sistema de vuelo completado (29/07/2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "RTX (2026c). RTX's Pratt & Whitney Canada advances hybrid-electric technology development, 21/07/2026",
+            "url": "https://www.rtx.com/news/news-center/2026/07/21/rtxs-pratt-whitney-canada-advances-hybrid-electric-technology-development",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          },
+          {
+            "titulo": "Airframer (2026). Pratt & Whitney completes hybrid-electric ground tests, 29/07/2026",
+            "url": "https://www.airframer.com/news/story/pratt-whitney-completes-hybrid-electric-ground-tests",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "Primer vuelo en 2027",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "RTX (2026c). RTX's Pratt & Whitney Canada advances hybrid-electric technology development, 21/07/2026",
+            "url": "https://www.rtx.com/news/news-center/2026/07/21/rtxs-pratt-whitney-canada-advances-hybrid-electric-technology-development",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          },
+          {
+            "titulo": "Airframer (2026). Pratt & Whitney completes hybrid-electric ground tests, 29/07/2026",
+            "url": "https://www.airframer.com/news/story/pratt-whitney-completes-hybrid-electric-ground-tests",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "5–6",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Masa de baterías y del motor eléctrico de 1 MW",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "heart-es-36-hibrido-en-serie-36-plazas",
+      "nombre": "Heart ES-36 (híbrido en serie, 36 plazas)",
+      "familia": "hibrido",
+      "hito": {
+        "valor": "Presentación y compra de JSX (23/09/2026); proyecto HYPER (12/10/2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Heart Aerospace (2026a). Heart Aerospace unveils ES-36 with JSX purchase agreement for up to 100 aircraft, 23/09/2026",
+            "url": "https://www.heartaerospace.com/newsroom/heart-aerospace-unveils-es-36-with-jsx-purchase-agreement-for-up-to-100-aircraft",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          },
+          {
+            "titulo": "Heart Aerospace (2026b). FAA selects Heart Aerospace for $2.9 million CLEEN award to advance ES-36 hybrid propulsion system, 12/10/2026",
+            "url": "https://www.heartaerospace.com/newsroom/faa-selects-heart-aerospace-for-2-9-million-cleen-award-to-advance-es-36-hybrid-propulsion-system",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "Vuelo de preproducción en el 2.º semestre de 2028; servicio en 2031",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Heart Aerospace (2026a). Heart Aerospace unveils ES-36 with JSX purchase agreement for up to 100 aircraft, 23/09/2026",
+            "url": "https://www.heartaerospace.com/newsroom/heart-aerospace-unveils-es-36-with-jsx-purchase-agreement-for-up-to-100-aircraft",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          },
+          {
+            "titulo": "Heart Aerospace (2026b). FAA selects Heart Aerospace for $2.9 million CLEEN award to advance ES-36 hybrid propulsion system, 12/10/2026",
+            "url": "https://www.heartaerospace.com/newsroom/faa-selects-heart-aerospace-for-2-9-million-cleen-award-to-advance-es-36-hybrid-propulsion-system",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "4",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Alcance eléctrico de 200 km; masa de baterías",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "rolls-royce-elevated",
+      "nombre": "Rolls-Royce ELEVATED",
+      "familia": "hibrido",
+      "hito": {
+        "valor": "Selección en la 4.ª convocatoria de Clean Aviation (17–18/09/2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Rolls-Royce (2026b). Rolls-Royce to ELEVATE EU's latest Clean Aviation call, 18/09/2026",
+            "url": "https://www.rolls-royce.com/media/press-releases/2026/18-09-2026-rr-to-elevate-eus-latest-clean-aviation-call.aspx",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "Subsistema híbrido en motor donante; subvención por firmar",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Rolls-Royce (2026b). Rolls-Royce to ELEVATE EU's latest Clean Aviation call, 18/09/2026",
+            "url": "https://www.rolls-royce.com/media/press-releases/2026/18-09-2026-rr-to-elevate-eus-latest-clean-aviation-call.aspx",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "3–4",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Integración eléctrica en un turbofán de gran empuje",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "electra-el2-hibrido-despegue-ultracorto",
+      "nombre": "Electra EL2 (híbrido, despegue ultracorto)",
+      "familia": "hibrido",
+      "hito": {
+        "valor": "Operación desde helipuertos y calles de rodaje en Virginia, eIPP (22/09/2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Electra (2026). Electra completes groundbreaking flights at commercial airport using helicopter-style instrument procedures, 22/09/2026 (comunicado reproducido por AJOT)",
+            "url": "https://www.ajot.com/news/electra-completes-groundbreaking-flights-at-commercial-airport-using-helicopter-style-instrument-procedures-and-novel-take-off-and-landing-areas-for-its-ultra-short-airplane",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": null
+      },
+      "trl": {
+        "valor": "6",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Carga útil y alcance no publicados",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "rolls-royce-ultrafan-80",
+      "nombre": "Rolls-Royce UltraFan 80",
+      "familia": "turbofan",
+      "hito": {
+        "valor": "Armado del demostrador para volver al banco (jul. 2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "FlightGlobal (2026a). UltraFan advances on two fronts as Rolls-Royce readies for renewed test campaign, 03/07/2026",
+            "url": "https://www.flightglobal.com/archive/2026/07/ultrafan-advances-on-two-fronts-as-rolls-royce-readies-for-renewed-test-campaign/",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "Ensayo en tierra «más adelante este año»",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "FlightGlobal (2026a). UltraFan advances on two fronts as Rolls-Royce readies for renewed test campaign, 03/07/2026",
+            "url": "https://www.flightglobal.com/archive/2026/07/ultrafan-advances-on-two-fronts-as-rolls-royce-readies-for-renewed-test-campaign/",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "6",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Caja reductora de 64 MW: peso y complejidad",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "rolls-royce-ultrafan-30",
+      "nombre": "Rolls-Royce UltraFan 30",
+      "familia": "turbofan",
+      "hito": {
+        "valor": "64 M EUR del proyecto UNIFIED (17/03/2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Rolls-Royce (2026a). Rolls-Royce secures €64m to advance UltraFan 30 demonstrator through UNIFIED partnership, 17/03/2026",
+            "url": "https://www.rolls-royce.com/media/press-releases/2026/17-03-2026-rr-secures-euro-64m-to-advance-ultrafan-30-demonstrator-through-unified-partnership.aspx",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "Ensayo en tierra en 2028",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Rolls-Royce (2026a). Rolls-Royce secures €64m to advance UltraFan 30 demonstrator through UNIFIED partnership, 17/03/2026",
+            "url": "https://www.rolls-royce.com/media/press-releases/2026/17-03-2026-rr-secures-euro-64m-to-advance-ultrafan-30-demonstrator-through-unified-partnership.aspx",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "3–4",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Diámetro de fan frente a la altura del tren en fuselaje angosto",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "pratt-whitney-gtf-advantage",
+      "nombre": "Pratt & Whitney GTF Advantage",
+      "familia": "turbofan",
+      "hito": {
+        "valor": "Certificación EASA en la familia A320neo (17/04/2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "RTX (2026b). RTX's Pratt & Whitney GTF Advantage engine certified for Airbus A320neo aircraft, 17/04/2026",
+            "url": "https://www.rtx.com/news/news-center/2026/04/17/rtxs-pratt-whitney-gtf-advantage-engine-certified-for-airbus-a320neo-aircraft",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "Servicio en 2026; toda la producción en 2028",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "RTX (2026b). RTX's Pratt & Whitney GTF Advantage engine certified for Airbus A320neo aircraft, 17/04/2026",
+            "url": "https://www.rtx.com/news/news-center/2026/04/17/rtxs-pratt-whitney-gtf-advantage-engine-certified-for-airbus-a320neo-aircraft",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "8–9",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Antecedentes de durabilidad del GTF",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "cfm-rise-rotor-abierto",
+      "nombre": "CFM RISE (rotor abierto)",
+      "familia": "rotor_abierto",
+      "hito": {
+        "valor": "Revisiones preliminares de diseño del fan y de los álabes guía (jul. 2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Aviation Week (2026). CFM reports RISE milestones, 18/07/2026",
+            "url": "https://aviationweek.com/air-transport/aircraft-propulsion/cfm-reports-rise-milestones",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "informe"
+          },
+          {
+            "titulo": "FlightGlobal (2026b). CFM keeps focus on RISE open fan engine but is prepared for any scenario: Safran chief, febrero de 2026",
+            "url": "https://www.flightglobal.com/engines/cfm-keeps-focus-on-rise-open-fan-engine-but-is-prepared-for-any-scenario-safran-chief/166317.article",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "Módulo frontal a escala real; vuelo con Airbus en 2029",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Aviation Week (2026). CFM reports RISE milestones, 18/07/2026",
+            "url": "https://aviationweek.com/air-transport/aircraft-propulsion/cfm-reports-rise-milestones",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "informe"
+          },
+          {
+            "titulo": "FlightGlobal (2026b). CFM keeps focus on RISE open fan engine but is prepared for any scenario: Safran chief, febrero de 2026",
+            "url": "https://www.flightglobal.com/engines/cfm-keeps-focus-on-rise-open-fan-engine-but-is-prepared-for-any-scenario-safran-chief/166317.article",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "4–5",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Ruido y contención de pala sin carenado",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "ge-nasa-hytec-nucleo-compacto",
+      "nombre": "GE / NASA HyTEC (núcleo compacto)",
+      "familia": "turbofan",
+      "hito": {
+        "valor": "Ensayo exitoso del sistema híbrido de GE (dic. 2025; NASA, 26/01/2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "NASA (2026). HyTEC: NASA, GE Aerospace hybrid engine system marks successful test, 26/01/2026",
+            "url": "https://www.nasa.gov/directorates/armd/aavp/hytec-more-news/",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": null
+      },
+      "trl": {
+        "valor": "4–5",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Materiales de alta temperatura en un núcleo chico",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "airbus-pila-de-combustible-concepto-de-100-plaza",
+      "nombre": "Airbus, pila de combustible (concepto de 100 plazas)",
+      "familia": "hidrogeno",
+      "hito": {
+        "valor": "Empresa conjunta con MTU anunciada (07/07/2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Airbus (2025). Airbus showcases hydrogen aircraft technologies during its 2025 Airbus Summit, 25/03/2025",
+            "url": "https://airbus.com/en/newsroom/press-releases/2025-03-airbus-showcases-hydrogen-aircraft-technologies-during-its-2025",
+            "anio": 2025,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          },
+          {
+            "titulo": "Airbus (2026). Airbus and MTU Aero Engines to create a joint venture to develop a fully electric hydrogen fuel cell engine, 07/07/2026",
+            "url": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-and-mtu-aero-engines-to-create-a-joint-venture-to-develop-a-fully-electric-hydrogen-fuel-cell",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "Inicio de la empresa en 2027; ensayo integrado en tierra en 2027",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Airbus (2025). Airbus showcases hydrogen aircraft technologies during its 2025 Airbus Summit, 25/03/2025",
+            "url": "https://airbus.com/en/newsroom/press-releases/2025-03-airbus-showcases-hydrogen-aircraft-technologies-during-its-2025",
+            "anio": 2025,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          },
+          {
+            "titulo": "Airbus (2026). Airbus and MTU Aero Engines to create a joint venture to develop a fully electric hydrogen fuel cell engine, 07/07/2026",
+            "url": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-and-mtu-aero-engines-to-create-a-joint-venture-to-develop-a-fully-electric-hydrogen-fuel-cell",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "5–6",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Volumen del tanque criogénico; disipación térmica de la pila",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "zeroavia-za600-600-kw",
+      "nombre": "ZeroAvia ZA600 (600 kW)",
+      "familia": "hidrogeno",
+      "hito": {
+        "valor": "Condiciones especiales de la FAA para el ZA601, vigentes desde el 18/03/2026",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Charged EVs (2026). FAA finalizes special conditions for ZeroAvia's 600 kW electric aircraft engine, 02/04/2026",
+            "url": "https://chargedevs.com/newswire/faa-finalizes-special-conditions-for-zeroavias-600-kw-electric-aircraft-engine/",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "Certificación del sistema de pila en 2027; ZA600 completo hasta dos años después",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Charged EVs (2026). FAA finalizes special conditions for ZeroAvia's 600 kW electric aircraft engine, 02/04/2026",
+            "url": "https://chargedevs.com/newswire/faa-finalizes-special-conditions-for-zeroavias-600-kw-electric-aircraft-engine/",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "5–6",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Financiamiento; suministro de hidrógeno",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "amprius-sicore-celda-de-500-wh-kg",
+      "nombre": "Amprius SiCore (celda de 500 Wh/kg)",
+      "familia": "bateria",
+      "hito": {
+        "valor": "Lanzamiento (02/09/2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Amprius Technologies (2026). Amprius introduces SiCore 500 high energy density cells for unmanned aviation, 02/09/2026 (vía Nasdaq)",
+            "url": "https://www.nasdaq.com/press-release/amprius-introduces-sicorer500-high-energy-density-cells-unmanned-aviation-2026-09-02",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "Disponibilidad comercial en el 4.º trimestre de 2026",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Amprius Technologies (2026). Amprius introduces SiCore 500 high energy density cells for unmanned aviation, 02/09/2026 (vía Nasdaq)",
+            "url": "https://www.nasdaq.com/press-release/amprius-introduces-sicorer500-high-energy-density-cells-unmanned-aviation-2026-09-02",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "6–7",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        },
+        "contexto": "drones y HAPS"
+      },
+      "penaliza": {
+        "valor": "Valor de celda a 1C; sin valor de paquete publicado",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "saf",
+      "nombre": "SAF",
+      "familia": "saf",
+      "hito": {
+        "valor": "IATA: 2,4 Mt en 2026 (06/06/2026)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "IATA (2026). SAF production volumes still disappointing, 06/06/2026",
+            "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "ReFuelEU: 6 % en 2030",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "IATA (2026). SAF production volumes still disappointing, 06/06/2026",
+            "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "9",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        },
+        "contexto": "rutas maduras"
+      },
+      "penaliza": {
+        "valor": "Costo e insumos; e-SAF sin escala",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    },
+    {
+      "id": "boom-symphony-supersonico-civil",
+      "nombre": "Boom Symphony (supersónico civil)",
+      "familia": "frontera",
+      "hito": {
+        "valor": "Ensayos de combustor en Georgia Tech (nov. 2025)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Boom Supersonic (2025). A small flame with big implications: testing Symphony's combustion system, 19/11/2025",
+            "url": "https://boomsupersonic.com/flyby/a-small-flame-with-big-implications-testing-symphonys-combustion-system",
+            "anio": 2025,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ]
+      },
+      "proximo": {
+        "valor": "Primer ensayo del núcleo: previsto para comienzos de 2026, sin confirmación verificada",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Boom Supersonic (2025). A small flame with big implications: testing Symphony's combustion system, 19/11/2025",
+            "url": "https://boomsupersonic.com/flyby/a-small-flame-with-big-implications-testing-symphonys-combustion-system",
+            "anio": 2025,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ],
+        "contexto": "Lo que declara el desarrollador."
+      },
+      "trl": {
+        "valor": "3–4",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      },
+      "penaliza": {
+        "valor": "Consumo en crucero supersónico; ruido de despegue",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "3. Estado por tecnología"
+        }
+      }
+    }
+  ]
+}

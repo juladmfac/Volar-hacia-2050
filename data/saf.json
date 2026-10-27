@@ -1,0 +1,623 @@
+{
+  "_nota": "Valores de SAF con fuente. Las cifras de IATA son estimaciones de la propia IATA (producción del año en curso, proyectada). Las fuentes de iata.org, europa.eu e icao.int se confirmaron vía buscador el 26/10/2026 porque la red del entorno no permite abrirlas: hay que releerlas.",
+  "produccion": [
+    {
+      "anio": 2024,
+      "toneladas_mt": {
+        "valor": 1.0,
+        "unidad": "Mt/año",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
+            "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
+            "anio": 2025,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "IATA: Fact Sheet, Sustainable Aviation Fuels",
+            "url": "https://www.iata.org/en/iata-repository/pressroom/fact-sheets/fact-sheet-sustainable-aviation-fuels/",
+            "anio": null,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Producción mundial de SAF, según IATA.",
+        "conflicts": []
+      },
+      "participacion_pct": {
+        "valor": null,
+        "unidad": "%",
+        "conflicts": []
+      }
+    },
+    {
+      "anio": 2025,
+      "toneladas_mt": {
+        "valor": 1.9,
+        "unidad": "Mt/año",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
+            "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
+            "anio": 2025,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
+            "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Producción mundial de SAF, según IATA. En diciembre de 2024 IATA había proyectado 2,1 Mt para 2025.",
+        "conflicts": [
+          "Bolsa de Comercio de Rosario (2025), citada en Aviacion2050_Informe v04 §7.4.2: unos 2 Mt en 2025."
+        ]
+      },
+      "participacion_pct": {
+        "valor": 0.6,
+        "unidad": "%",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
+            "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
+            "anio": 2025,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Parte del consumo mundial de combustible de aviación.",
+        "conflicts": [
+          "Bolsa de Comercio de Rosario (2025), citada en Aviacion2050_Informe v04 §7.4.2: 0,7 % en 2025."
+        ]
+      }
+    },
+    {
+      "anio": 2026,
+      "toneladas_mt": {
+        "valor": 2.4,
+        "unidad": "Mt/año",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
+            "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
+            "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
+            "anio": 2025,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Proyección de IATA para 2026: la producción crece, pero más despacio que en 2025.",
+        "conflicts": []
+      },
+      "participacion_pct": {
+        "valor": 0.8,
+        "unidad": "%",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
+            "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
+            "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
+            "anio": 2025,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Proyección de IATA para 2026, como parte del consumo mundial de combustible de aviación.",
+        "conflicts": []
+      }
+    }
+  ],
+  "capacidad_instalada_mt": {
+    "valor": 9,
+    "unidad": "Mt/año",
+    "tipo": "verificado",
+    "fuentes": [
+      {
+        "titulo": "IATA: Quarterly Air Transport Chartbook, Q2 2026",
+        "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/quarterly-air-transport-chartbook-q2-2026/",
+        "anio": 2026,
+        "consultado": "2026-10-26",
+        "tipo": "primaria",
+        "verificacion": "buscador"
+      }
+    ],
+    "contexto": "Capacidad de producción proyectada por IATA para fin de 2026. Capacidad no es producción: la mayor parte no se usa.",
+    "nota": "El Global Outlook de junio de 2026 dice 'más de 9 Mt'.",
+    "conflicts": []
+  },
+  "sobrecosto_musd": [
+    {
+      "valor": 2900,
+      "unidad": "millones de USD",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
+          "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
+          "anio": 2025,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "buscador"
+        }
+      ],
+      "contexto": "Lo que pagaron de más las aerolíneas por el SAF de 2025, según IATA: incluye 1.400 millones de sobreprecio y 1.500 millones de cargos de cumplimiento trasladados por los proveedores en Europa y el Reino Unido.",
+      "conflicts": [],
+      "anio": 2025
+    },
+    {
+      "valor": 4300,
+      "unidad": "millones de USD",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
+          "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+          "anio": 2026,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "buscador"
+        }
+      ],
+      "contexto": "Sobrecosto proyectado por IATA para 2026.",
+      "conflicts": [],
+      "anio": 2026
+    }
+  ],
+  "precio_relativo": {
+    "valor": "entre 2 y 5 veces el del combustible fósil",
+    "tipo": "verificado",
+    "fuentes": [
+      {
+        "titulo": "IATA: SAF Production Growth Rate is Slowing Down, Essential to Correct Course Ahead of e-SAF Mandates (09/12/2025)",
+        "url": "https://www.iata.org/en/pressroom/2025-releases/2025-12-09-04/",
+        "anio": 2025,
+        "consultado": "2026-10-26",
+        "tipo": "primaria",
+        "verificacion": "buscador"
+      }
+    ],
+    "contexto": "Factor 2 en general y hasta 5 en mercados con mandato, según IATA.",
+    "conflicts": [
+      "IATA, Global Outlook for Air Transport (diciembre de 2025): hasta 4 veces en mercados con mandato."
+    ]
+  },
+  "limite_mezcla_pct": {
+    "valor": 50,
+    "unidad": "%",
+    "tipo": "verificado",
+    "fuentes": [
+      {
+        "titulo": "IATA: SAF Handbook (mayo de 2024)",
+        "url": "https://www.iata.org/contentassets/d13875e9ed784f75bac90f000760e998/saf-handbook.pdf",
+        "anio": 2024,
+        "consultado": "2026-10-26",
+        "tipo": "primaria",
+        "verificacion": "buscador"
+      },
+      {
+        "titulo": "US DOE, Alternative Fuels Data Center: Sustainable Aviation Fuel",
+        "url": "https://afdc.energy.gov/fuels/sustainable-aviation-fuel",
+        "anio": null,
+        "consultado": "2026-10-26",
+        "tipo": "primaria",
+        "verificacion": "buscador"
+      }
+    ],
+    "contexto": "Máximo de SAF en mezcla con queroseno fósil para la mayoría de las rutas aprobadas por ASTM D7566; algunas rutas tienen un límite menor (hasta 10 %).",
+    "nota": "Falta confirmar en la tabla vigente de ASTM D7566.",
+    "conflicts": []
+  },
+  "rutas_certificadas": {
+    "valor": 11,
+    "tipo": "verificado",
+    "fuentes": [
+      {
+        "titulo": "IATA (s. f.). Sustainable Aviation Fuel (SAF)",
+        "url": "https://www.iata.org/en/programs/sustainability/sustainable-aviation-fuel-saf/",
+        "anio": null,
+        "consultado": "2026-10-26",
+        "tipo": "primaria",
+        "verificacion": "informe"
+      }
+    ],
+    "informe": {
+      "titulo": "Aviacion2050_NovedadesPropulsion",
+      "version": "v01",
+      "fecha": "2026-10-18",
+      "autor": "Julian Ruarte",
+      "seccion": "4.7 Combustibles sostenibles (SAF)"
+    },
+    "contexto": "Rutas de producción de SAF certificadas por ASTM, según IATA.",
+    "nota": "Una actualización de la FAA de 2021 hablaba de 7 rutas aprobadas; el buscador no confirmó las 11.",
+    "conflicts": []
+  },
+  "trl": [
+    {
+      "valor": "9",
+      "tipo": "estimacion",
+      "informe": {
+        "titulo": "Aviacion2050_ClasificacionTecnologica",
+        "version": "v01",
+        "fecha": "2026-10-18",
+        "autor": "Julian Ruarte",
+        "seccion": "5. Energía — combustibles y almacenamiento"
+      },
+      "contexto": "Rutas maduras (HEFA y otras en servicio comercial).",
+      "ruta": "maduras"
+    },
+    {
+      "valor": "6–7",
+      "tipo": "estimacion",
+      "informe": {
+        "titulo": "Aviacion2050_ClasificacionTecnologica",
+        "version": "v01",
+        "fecha": "2026-10-18",
+        "autor": "Julian Ruarte",
+        "seccion": "5. Energía — combustibles y almacenamiento"
+      },
+      "contexto": "Combustible sintético con electricidad (e-SAF, PtL).",
+      "ruta": "e_saf"
+    },
+    {
+      "valor": "7",
+      "tipo": "estimacion",
+      "informe": {
+        "titulo": "Aviacion2050_ClasificacionTecnologica",
+        "version": "v01",
+        "fecha": "2026-10-18",
+        "autor": "Julian Ruarte",
+        "seccion": "5. Energía — combustibles y almacenamiento"
+      },
+      "contexto": "SAF 100 % sin mezcla con queroseno: ya voló en demostraciones, sin especificación para uso comercial.",
+      "ruta": "sin_mezcla"
+    }
+  ],
+  "e_saf": {
+    "capacidad_mt": {
+      "valor": 0.02,
+      "unidad": "Mt/año",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
+          "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+          "anio": 2026,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "buscador"
+        }
+      ],
+      "contexto": "Capacidad mundial de e-SAF en operación o en construcción, según IATA.",
+      "conflicts": []
+    },
+    "plantas_operando": {
+      "valor": 1,
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
+          "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+          "anio": 2026,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "buscador"
+        }
+      ],
+      "contexto": "Plantas de e-SAF en operación en el mundo, según IATA.",
+      "nota": "El nombre de la planta sigue pendiente (docs/pendientes.md).",
+      "conflicts": []
+    },
+    "exigido_2030_mt": {
+      "valor": 0.6,
+      "unidad": "Mt/año",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "IATA: SAF Production Volumes Still Disappointing (06/06/2026)",
+          "url": "https://www.iata.org/en/pressroom/2026-releases/06-06-saf-production-volumes-still-disappointing/",
+          "anio": 2026,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "informe"
+        }
+      ],
+      "informe": {
+        "titulo": "Aviacion2050_NovedadesPropulsion",
+        "version": "v01",
+        "fecha": "2026-10-18",
+        "autor": "Julian Ruarte",
+        "seccion": "4.7 Combustibles sostenibles (SAF)"
+      },
+      "contexto": "e-SAF que exigen los mandatos de la UE y el Reino Unido para 2030, según IATA.",
+      "conflicts": []
+    }
+  },
+  "mandatos": [
+    {
+      "id": "refueleu",
+      "region": "Unión Europea",
+      "norma": "ReFuelEU Aviation, Reglamento (UE) 2023/2405",
+      "saf_pct": [
+        {
+          "valor": 2,
+          "unidad": "%",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "Consejo de la UE: RefuelEU aviation initiative, Council adopts new law (09/10/2023)",
+              "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/10/09/refueleu-aviation-initiative-council-adopts-new-law-to-decarbonise-the-aviation-sector/",
+              "anio": 2023,
+              "consultado": "2026-10-26",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            },
+            {
+              "titulo": "Comisión Europea: ReFuelEU Aviation",
+              "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en",
+              "anio": null,
+              "consultado": "2026-10-26",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "contexto": "Parte mínima de SAF en el combustible entregado en aeropuertos de la UE.",
+          "conflicts": [],
+          "anio": 2025
+        },
+        {
+          "valor": 6,
+          "unidad": "%",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "Consejo de la UE: RefuelEU aviation initiative, Council adopts new law (09/10/2023)",
+              "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/10/09/refueleu-aviation-initiative-council-adopts-new-law-to-decarbonise-the-aviation-sector/",
+              "anio": 2023,
+              "consultado": "2026-10-26",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            },
+            {
+              "titulo": "Comisión Europea: ReFuelEU Aviation",
+              "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en",
+              "anio": null,
+              "consultado": "2026-10-26",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "contexto": "Parte mínima de SAF en el combustible entregado en aeropuertos de la UE.",
+          "conflicts": [],
+          "anio": 2030
+        },
+        {
+          "valor": 70,
+          "unidad": "%",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "Consejo de la UE: RefuelEU aviation initiative, Council adopts new law (09/10/2023)",
+              "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/10/09/refueleu-aviation-initiative-council-adopts-new-law-to-decarbonise-the-aviation-sector/",
+              "anio": 2023,
+              "consultado": "2026-10-26",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            },
+            {
+              "titulo": "Comisión Europea: ReFuelEU Aviation",
+              "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en",
+              "anio": null,
+              "consultado": "2026-10-26",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "contexto": "Parte mínima de SAF en el combustible entregado en aeropuertos de la UE.",
+          "conflicts": [],
+          "anio": 2050
+        }
+      ],
+      "sintetico_pct": [
+        {
+          "valor": null,
+          "unidad": "%",
+          "conflicts": [
+            "Consejo de la UE y Comisión Europea: 1,2 % de combustibles sintéticos desde 2030.",
+            "Resumen del reglamento en EUR-Lex: 0,7 % en 2030."
+          ],
+          "anio": 2030
+        },
+        {
+          "valor": 35,
+          "unidad": "%",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "Consejo de la UE: RefuelEU aviation initiative, Council adopts new law (09/10/2023)",
+              "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/10/09/refueleu-aviation-initiative-council-adopts-new-law-to-decarbonise-the-aviation-sector/",
+              "anio": 2023,
+              "consultado": "2026-10-26",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            },
+            {
+              "titulo": "Comisión Europea: ReFuelEU Aviation",
+              "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en",
+              "anio": null,
+              "consultado": "2026-10-26",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "contexto": "Parte mínima de combustibles sintéticos (e-SAF), incluida dentro del 70 % de SAF.",
+          "conflicts": [],
+          "anio": 2050
+        }
+      ],
+      "cumplimiento_pct": [
+        {
+          "valor": 2.79,
+          "unidad": "%",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "EASA: ReFuelEU Aviation Annual Technical Report 2026, 2025 in review",
+              "url": "https://www.easa.europa.eu/en/document-library/general-publications/refueleu-aviation-annual-technical-report-2026",
+              "anio": 2026,
+              "consultado": "2026-10-26",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            },
+            {
+              "titulo": "EASA: EU sustainable aviation fuel supply exceeds 2025 ReFuelEU Aviation target",
+              "url": "https://www.easa.europa.eu/en/newsroom-and-events/press-releases/eu-sustainable-aviation-fuel-supply-exceeds-2025-refueleu-aviation-target",
+              "anio": 2026,
+              "consultado": "2026-10-26",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "contexto": "SAF entregado en aeropuertos de la UE en 2025: 1,1 Mt sobre 39,3 Mt de combustible, por encima del mínimo de 2 %.",
+          "conflicts": [],
+          "anio": 2025
+        }
+      ]
+    }
+  ],
+  "metas": [
+    {
+      "id": "oaci_ltag_is3",
+      "organismo": "OACI",
+      "escenario": "Objetivo aspiracional de largo plazo (LTAG), escenario integrado IS3",
+      "combustibles_pct": {
+        "valor": 55,
+        "unidad": "%",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "OACI: Environmental Report 2022, Special Supplement on LTAG",
+            "url": "https://www.icao.int/sites/default/files/environmental-protection/Documents/EnvironmentalReports/2022/ENVReport2022_Special-Supplement-on-LTAG.pdf",
+            "anio": 2022,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Parte de la reducción de CO₂ al 2050 que el escenario más ambicioso de la OACI asigna a los combustibles (SAF, combustibles sintéticos e hidrógeno). Se mide contra el escenario base sin medidas; la reducción total es de 87 %: 21 % tecnología, 11 % operaciones, 55 % combustibles.",
+        "conflicts": []
+      },
+      "pendientes": []
+    },
+    {
+      "id": "atag_waypoint_2050",
+      "organismo": "ATAG",
+      "escenario": "Waypoint 2050, tercera edición (febrero de 2026)",
+      "combustibles_pct": {
+        "valor": "entre 38 y 58",
+        "unidad": "%",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "ATAG: Next five years are crucial to aviation decarbonisation journey (febrero de 2026)",
+            "url": "https://atag.org/news/next-five-years-are-crucial-to-aviation-decarbonisation-journey/",
+            "anio": 2026,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "informe"
+          }
+        ],
+        "informe": {
+          "titulo": "Aviacion2050_InformeBreve",
+          "version": "v03",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "Resumen ejecutivo"
+        },
+        "contexto": "Parte de la reducción de emisiones al 2050 que ATAG asigna al SAF, según el escenario.",
+        "conflicts": []
+      },
+      "pendientes": [
+        "Fuente secundaria (nota de prensa de ATAG): leer el informe Waypoint 2050 completo en atag.org; el buscador no confirmó las cifras."
+      ]
+    },
+    {
+      "id": "iata_net_zero",
+      "organismo": "IATA",
+      "escenario": "Cero emisiones netas al 2050 (estimación de IATA)",
+      "combustibles_pct": {
+        "valor": 65,
+        "unidad": "%",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "IATA (s. f.). Sustainable Aviation Fuel (SAF)",
+            "url": "https://www.iata.org/en/programs/sustainability/sustainable-aviation-fuel-saf/",
+            "anio": null,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ],
+        "informe": {
+          "titulo": "Aviacion2050_NovedadesPropulsion",
+          "version": "v01",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "4.7 Combustibles sostenibles (SAF)"
+        },
+        "contexto": "Parte de la reducción necesaria al 2050 que, según IATA, podría aportar el SAF (máximo).",
+        "conflicts": []
+      },
+      "pendientes": []
+    }
+  ],
+  "argentina": {
+    "meta_nacional": {
+      "valor": "Argentina tiene materia prima para SAF (aceites, azúcares, almidones y grasas animales), pero no se identificó un objetivo nacional de mezcla ni un volumen de producción comprometido.",
+      "tipo": "estimacion",
+      "informe": {
+        "titulo": "Aviacion2050_Informe",
+        "version": "v04",
+        "fecha": "2026-09-10",
+        "autor": "Julian Ruarte",
+        "seccion": "7.4.2 Potencial de SAF"
+      },
+      "contexto": "Hallazgo del Informe v04: la materia prima está; la meta, no."
+    }
+  },
+  "pendientes": [
+    "Releer todas las fuentes de iata.org, europa.eu, easa.europa.eu e icao.int (verificadas vía buscador).",
+    "Energía específica y densidad del SAF (data/energy_carriers.json siguen en null).",
+    "Releer las fuentes con verificacion 'informe' (rutas ASTM, e-SAF exigido en 2030, ATAG, IATA 65 %)."
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "_nota": "Cada campo es un Dato. null = sin verificar. Las afirmaciones sobre ciudades y empresas se contrastan con más de una fuente; si se contradicen, van todas en conflicts.",
+  "ciudades": [
+    {
+      "id": "sao_paulo",
+      "nombre": "São Paulo",
+      "rol": {
+        "valor": null,
+        "nota": "Texto anterior sin fuente: \"mercado futuro y sede de fabricante (Eve/Embraer); sin servicio operando\"."
+      },
+      "estado": {
+        "valor": null,
+        "nota": "Antes figuraba \"proyectado\" sin fuente."
+      },
+      "vertipuertos_planificados": {
+        "estado": {
+          "valor": "proyectado",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "UrbanV announces São Paulo vertiport network partnership (AIN, 05/08/2026)",
+              "url": "https://www.ainonline.com/aviation-news/business-aviation/2026-08-05/urbanv-announces-sao-paulo-vertiport-network-partnership",
+              "anio": 2026,
+              "consultado": "2026-10-24",
+              "tipo": "secundaria",
+              "verificacion": "buscador"
+            },
+            {
+              "titulo": "UrbanV publishes vertiport network plans for São Paulo and partnership details (Urban Air Mobility News)",
+              "url": "https://www.urbanairmobilitynews.com/vertiports/urbanv-publishes-vertiport-network-plans-for-sao-paulo-and-partnership-details/",
+              "anio": 2026,
+              "consultado": "2026-10-24",
+              "tipo": "secundaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "contexto": "Red anunciada en LABACE 2026; no hay vertipuertos construidos informados."
+        },
+        "anunciado_por": {
+          "valor": "UrbanV, con PAX Aeroportos, Helicenter/Ponte Aérea y GL Events (LABACE 2026)",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "UrbanV announces São Paulo vertiport network partnership (AIN, 05/08/2026)",
+              "url": "https://www.ainonline.com/aviation-news/business-aviation/2026-08-05/urbanv-announces-sao-paulo-vertiport-network-partnership",
+              "anio": 2026,
+              "consultado": "2026-10-24",
+              "tipo": "secundaria",
+              "verificacion": "buscador"
+            },
+            {
+              "titulo": "UrbanV publishes vertiport network plans for São Paulo and partnership details (Urban Air Mobility News)",
+              "url": "https://www.urbanairmobilitynews.com/vertiports/urbanv-publishes-vertiport-network-plans-for-sao-paulo-and-partnership-details/",
+              "anio": 2026,
+              "consultado": "2026-10-24",
+              "tipo": "secundaria",
+              "verificacion": "buscador"
+            }
+          ]
+        },
+        "sitios": {
+          "valor": [
+            "Campo de Marte (SBMT)",
+            "Heliporto Alphaville (SJIW)",
+            "Heliporto Hotel Sheraton WTC (SDWT)",
+            "São Paulo Expo",
+            "Santos Convention Center"
+          ],
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "UrbanV announces São Paulo vertiport network partnership (AIN, 05/08/2026)",
+              "url": "https://www.ainonline.com/aviation-news/business-aviation/2026-08-05/urbanv-announces-sao-paulo-vertiport-network-partnership",
+              "anio": 2026,
+              "consultado": "2026-10-24",
+              "tipo": "secundaria",
+              "verificacion": "buscador"
+            },
+            {
+              "titulo": "UrbanV publishes vertiport network plans for São Paulo and partnership details (Urban Air Mobility News)",
+              "url": "https://www.urbanairmobilitynews.com/vertiports/urbanv-publishes-vertiport-network-plans-for-sao-paulo-and-partnership-details/",
+              "anio": 2026,
+              "consultado": "2026-10-24",
+              "tipo": "secundaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "conflicts": [
+            "Un mismo artículo habla de 5 vertipuertos y de hasta 7 FBO iniciales"
+          ]
+        },
+        "alcance": {
+          "valor": "Estado de São Paulo (incluye Alphaville y Santos, no solo la ciudad)",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "UrbanV announces São Paulo vertiport network partnership (AIN, 05/08/2026)",
+              "url": "https://www.ainonline.com/aviation-news/business-aviation/2026-08-05/urbanv-announces-sao-paulo-vertiport-network-partnership",
+              "anio": 2026,
+              "consultado": "2026-10-24",
+              "tipo": "secundaria",
+              "verificacion": "buscador"
+            },
+            {
+              "titulo": "UrbanV publishes vertiport network plans for São Paulo and partnership details (Urban Air Mobility News)",
+              "url": "https://www.urbanairmobilitynews.com/vertiports/urbanv-publishes-vertiport-network-plans-for-sao-paulo-and-partnership-details/",
+              "anio": 2026,
+              "consultado": "2026-10-24",
+              "tipo": "secundaria",
+              "verificacion": "buscador"
+            }
+          ]
+        },
+        "construidos": {
+          "valor": null
+        },
+        "capacidad_pads": {
+          "valor": null
+        },
+        "fecha_inicio_obras": {
+          "valor": null
+        }
+      },
+      "poblacion": {
+        "valor": null
+      },
+      "densidad": {
+        "valor": null
+      },
+      "congestion": {
+        "valor": null
+      },
+      "pendientes": [
+        "Comunicado primario de UrbanV (urbanv.com) sobre la red de vertipuertos.",
+        "Conflicto de AIN: 5 vertipuertos iniciales o hasta 7 FBO.",
+        "Afirmación de UrbanV/FFG sobre más de 400 helicópteros y más de 200 helipuertos en São Paulo (urbanairmobilitynews.com): releer la fuente; no es dato oficial.",
+        "Fecha objetivo de operaciones comerciales de Eve: el resumen previo decía 2027; los informes Aviacion2050 de octubre de 2026 hablan de certificar en 2028.",
+        "Coordenadas de los sitios: SDWT y São Paulo Expo solo tienen agregadores; Santos Convention Center no tiene coordenadas publicadas."
+      ],
+      "sitios_coordenadas": [
+        {
+          "nombre": "Campo de Marte (SBMT)",
+          "coordenadas": {
+            "valor": [
+              -23.50694,
+              -46.63417
+            ],
+            "tipo": "verificado",
+            "fuentes": [
+              {
+                "titulo": "Patrimônio aeroportuário: SBMT Campo de Marte (Ministério de Portos e Aeroportos)",
+                "url": "https://www.gov.br/portos-e-aeroportos/pt-br/assuntos/transporte-aereo/patrimonio-aeroportuario/SBMTCampodeMarteSP.pdf",
+                "anio": null,
+                "consultado": "2026-10-26",
+                "tipo": "primaria",
+                "verificacion": "buscador"
+              }
+            ],
+            "unidad": "grados (lat, lon)",
+            "contexto": "Punto de referencia del aeródromo: 23°30'25\" S, 46°38'03\" O.",
+            "conflicts": [
+              "emsampa.com.br: 23°30'24\" S, 46°38'02\" O",
+              "flightplandatabase.com: -23,5091; -46,6377"
+            ]
+          }
+        },
+        {
+          "nombre": "Heliporto Alphaville (SJIW)",
+          "coordenadas": {
+            "valor": [
+              -23.475,
+              -46.82833
+            ],
+            "tipo": "verificado",
+            "fuentes": [
+              {
+                "titulo": "ANAC, Portaria n.º 2398/SIA, de 09/09/2015 (Heliporto Alphaville)",
+                "url": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/portarias/2015/portaria-no-2398-sia-de-09-09-2015/@@display-file/arquivo_norma/PA2015-2398.pdf",
+                "anio": 2015,
+                "consultado": "2026-10-26",
+                "tipo": "primaria",
+                "verificacion": "buscador"
+              }
+            ],
+            "unidad": "grados (lat, lon)",
+            "contexto": "23°28'30\" S, 46°49'42\" O. La inscripción de esa portaria vencía el 13/09/2022."
+          }
+        },
+        {
+          "nombre": "Heliporto Hotel Sheraton WTC (SDWT)",
+          "coordenadas": {
+            "valor": [
+              -23.609156,
+              -46.696259
+            ],
+            "tipo": "verificado",
+            "fuentes": [
+              {
+                "titulo": "SDWT, Heliporto Hotel Sheraton WTC (helis.com)",
+                "url": "https://www.helis.com/database/gps/SDWT/tracking/",
+                "anio": null,
+                "consultado": "2026-10-26",
+                "tipo": "secundaria",
+                "verificacion": "buscador"
+              }
+            ],
+            "unidad": "grados (lat, lon)"
+          }
+        },
+        {
+          "nombre": "São Paulo Expo",
+          "coordenadas": {
+            "valor": [
+              -23.645079,
+              -46.630078
+            ],
+            "tipo": "verificado",
+            "fuentes": [
+              {
+                "titulo": "São Paulo Expo Exhibition & Convention Center (tradefairdates.com)",
+                "url": "https://www.tradefairdates.com/Event-Venue-So-Paulo-Expo-Exhibition-Convention-Center-Sao-Paulo-ZS1467.html",
+                "anio": null,
+                "consultado": "2026-10-26",
+                "tipo": "secundaria",
+                "verificacion": "buscador"
+              }
+            ],
+            "unidad": "grados (lat, lon)",
+            "conflicts": [
+              "accrue.com (listado de eventos): -23,6477; -46,6302"
+            ]
+          }
+        },
+        {
+          "nombre": "Santos Convention Center",
+          "coordenadas": {
+            "valor": null,
+            "nota": "Dirección: Praça Almirante Gago Coutinho, 29, Santos (gl-events.com). No se encontraron coordenadas publicadas del predio."
+          }
+        }
+      ]
+    },
+    {
+      "id": "guangzhou_shenzhen",
+      "nombre": "Guangzhou y Shenzhen",
+      "rol": {
+        "valor": null
+      },
+      "estado": {
+        "valor": null
+      },
+      "pendientes": [
+        "Si ya se venden boletos al público o faltan autorizaciones (fuentes contradictorias)",
+        "Fecha de inicio del servicio en Guangzhou (2023, 2024 o 2026 según la fuente)",
+        "Shenzhen: plan de más de 1.200 sitios a fines de 2026 (plan, no confirmado como construido)",
+        "Guangzhou: 5 ubicaciones de vertipuertos aprobadas en junio de 2026"
+      ]
+    },
+    {
+      "id": "dubai_abu_dhabi",
+      "nombre": "Dubái y Abu Dabi",
+      "rol": {
+        "valor": null
+      },
+      "estado": {
+        "valor": null
+      },
+      "pendientes": [
+        "Fecha real de lanzamiento en Dubai y si ya ocurrió (hoy 9/10/2026)",
+        "Archer en Abu Dhabi: objetivo Q3 2026 según el resumen; sin verificar"
+      ]
+    }
+  ]
+}

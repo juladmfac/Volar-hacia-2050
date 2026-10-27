@@ -1,0 +1,316 @@
+{
+  "_nota": "Escena 6: aeródromo y vertipuerto. Cada campo es un Dato. Las normas salen del Informe Breve v03 (§4.3 y §6.2–6.4) y se confirmaron con un buscador cuando fue posible; las que no se abrieron quedan como «citada en los informes, sin releer».",
+  "claves": [
+    {
+      "letra": "E",
+      "envergadura_desde_m": {
+        "valor": 52,
+        "unidad": "m",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "ICAO Aerodrome Reference Code (SKYbrary)",
+            "url": "https://skybrary.aero/articles/icao-aerodrome-reference-code",
+            "anio": null,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          }
+        ]
+      },
+      "envergadura_hasta_m": {
+        "valor": 65,
+        "unidad": "m",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "ICAO Aerodrome Reference Code (SKYbrary)",
+            "url": "https://skybrary.aero/articles/icao-aerodrome-reference-code",
+            "anio": null,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Hasta menos de 65 m."
+      }
+    },
+    {
+      "letra": "F",
+      "envergadura_desde_m": {
+        "valor": 65,
+        "unidad": "m",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "ICAO Aerodrome Reference Code (SKYbrary)",
+            "url": "https://skybrary.aero/articles/icao-aerodrome-reference-code",
+            "anio": null,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          }
+        ]
+      },
+      "envergadura_hasta_m": {
+        "valor": 80,
+        "unidad": "m",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "ICAO Aerodrome Reference Code (SKYbrary)",
+            "url": "https://skybrary.aero/articles/icao-aerodrome-reference-code",
+            "anio": null,
+            "consultado": "2026-10-26",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Hasta menos de 80 m. Más allá, la guía está en el Manual de diseño de aeródromos (Doc 9157)."
+      }
+    }
+  ],
+  "ala_plegable": {
+    "aeronave": "Boeing 777-9",
+    "envergadura_vuelo_m": {
+      "valor": 71.8,
+      "unidad": "m",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "Boeing 777X, presentación en ALACPA 13 (OACI, Oficina SAM, 29/11/2016)",
+          "url": "https://www.icao.int/sites/default/files/sp-files/SAM/Documents/2016-ALACPA13/5-Yonglian-ALACPA%20Presentation%2029%20Nov%202016.pdf",
+          "anio": 2016,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "buscador"
+        }
+      ],
+      "contexto": "Valor preliminar en la presentación de Boeing de 2016.",
+      "conflicts": [
+        "La conferencia de 2021 que cita el Informe Breve v03 (§4.3) da 71,76 m."
+      ]
+    },
+    "envergadura_plegada_m": {
+      "valor": 64.8,
+      "unidad": "m",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "Boeing 777X, presentación en ALACPA 13 (OACI, Oficina SAM, 29/11/2016)",
+          "url": "https://www.icao.int/sites/default/files/sp-files/SAM/Documents/2016-ALACPA13/5-Yonglian-ALACPA%20Presentation%2029%20Nov%202016.pdf",
+          "anio": 2016,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "buscador"
+        }
+      ],
+      "contexto": "Con las punteras plegadas, en tierra.",
+      "conflicts": [
+        "La conferencia de 2021 que cita el Informe Breve v03 (§4.3) da 64,82 m."
+      ]
+    },
+    "estado": {
+      "valor": "en_preparacion",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "Boeing cleared for next phase of 777-9 certification (FlightGlobal, 07/06/2026)",
+          "url": "https://www.flightglobal.com/airframers/2026/06/boeing-cleared-for-next-phase-of-777-9-certification/",
+          "anio": 2026,
+          "consultado": "2026-10-26",
+          "tipo": "secundaria",
+          "verificacion": "informe"
+        },
+        {
+          "titulo": "Boeing Reports Third Quarter Results (29/10/2025)",
+          "url": "https://investors.boeing.com/investors/news/press-release-details/2025/Boeing-Reports-Third-Quarter-Results/default.aspx",
+          "anio": 2025,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "informe"
+        }
+      ],
+      "contexto": "Sin certificar: la FAA habilitó la fase 4b de inspección de tipo el 06/06/2026 y Boeing prevé la primera entrega en 2027."
+    },
+    "norma": {
+      "valor": "La Enmienda 15 del Anexo 14, Volumen I (adoptada el 09/03/2020, aplicable desde el 05/11/2020), remite a los PANS-Aeródromos (Doc 9981) para el estudio de compatibilidad de aviones con punteras plegables: con el ala plegada, el avión puede maniobrar en áreas diseñadas para una clave menor.",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "OACI, Oficina WACAF: AAO/SG/3 – WP/4, Apéndice A, enmiendas al Anexo 14 y a los PANS-Aeródromos (Enmienda 15)",
+          "url": "https://www2023.icao.int/WACAF/Documents/Meetings/2020/AAO-SG-3/AAO%20SG-3_WP4_AppA_Amdmts%20Annex_14%20and%20PANS__Eng.pdf",
+          "anio": 2020,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "informe"
+        }
+      ]
+    },
+    "abierto": {
+      "valor": "Falta aplicarlo a configuraciones de envergadura mucho mayor (ala arriostrada, cuerpo integrado), ubicar los puntos de plegado y desplegado en el movimiento en superficie y medir el impacto sobre una red de aeródromos concreta.",
+      "tipo": "estimacion",
+      "informe": {
+        "titulo": "Aviacion2050_InformeBreve",
+        "version": "v03",
+        "fecha": "2026-10-18",
+        "autor": "Julian Ruarte",
+        "seccion": "4.3 Geometría de aeródromo y alas plegables"
+      }
+    }
+  },
+  "vertipuerto": {
+    "easa_fato_d": {
+      "valor": 1.5,
+      "unidad": "× D",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "EASA, Prototype Technical Specifications for the Design of VFR Vertiports (PTS-VPT-DSN), marzo de 2022",
+          "url": "https://www.easa.europa.eu/en/downloads/136259/en",
+          "anio": 2022,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "informe"
+        }
+      ],
+      "contexto": "Lado o diámetro mínimo de la FATO (área de aproximación final y despegue), en múltiplos de D: el diámetro del menor círculo que envuelve a la aeronave."
+    },
+    "easa_seguridad_m": {
+      "valor": 3,
+      "unidad": "m",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "EASA, Prototype Technical Specifications for the Design of VFR Vertiports (PTS-VPT-DSN), marzo de 2022",
+          "url": "https://www.easa.europa.eu/en/downloads/136259/en",
+          "anio": 2022,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "informe"
+        }
+      ],
+      "contexto": "Ancho mínimo del área de seguridad alrededor de la FATO, en metros, como alternativa a 0,25 D."
+    },
+    "easa_seguridad_d": {
+      "valor": 0.25,
+      "unidad": "× D",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "EASA, Prototype Technical Specifications for the Design of VFR Vertiports (PTS-VPT-DSN), marzo de 2022",
+          "url": "https://www.easa.europa.eu/en/downloads/136259/en",
+          "anio": 2022,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "informe"
+        }
+      ],
+      "contexto": "Ancho mínimo del área de seguridad alrededor de la FATO, en múltiplos de D, como alternativa a 3 m."
+    },
+    "easa_alcance": {
+      "valor": "Especificaciones prototipo, no reglamentarias, para vertipuertos VFR destinados a aeronaves VTOL tripuladas certificadas en la categoría Enhanced. Se agrega un volumen libre de obstáculos para las trayectorias verticales.",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "EASA, Prototype Technical Specifications for the Design of VFR Vertiports (PTS-VPT-DSN), marzo de 2022",
+          "url": "https://www.easa.europa.eu/en/downloads/136259/en",
+          "anio": 2022,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "informe"
+        }
+      ]
+    },
+    "faa_mtow_lb": {
+      "valor": 12500,
+      "unidad": "lb",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "FAA, Engineering Brief No. 105A, Vertiport Design (27/12/2024)",
+          "url": "https://www.faa.gov/airports/engineering/engineering_briefs/eb_105a_vertiports",
+          "anio": 2024,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "buscador"
+        }
+      ],
+      "contexto": "Peso máximo de despegue de la aeronave de referencia del EB 105A (unos 5.670 kg)."
+    },
+    "faa_alcance": {
+      "valor": "Guía provisoria que complementa la AC 150/5390-2D de helipuertos, para eVTOL pilotados en condiciones VMC. Introduce la marca «VTL», define la geometría también por el diámetro de rotor y amplía las áreas de precaución por flujo descendente y de salida (downwash y outwash).",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "FAA, Engineering Brief No. 105A, Vertiport Design (27/12/2024)",
+          "url": "https://www.faa.gov/airports/engineering/engineering_briefs/eb_105a_vertiports",
+          "anio": 2024,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "buscador"
+        },
+        {
+          "titulo": "FAA, Advanced Air Mobility Infrastructure (página actualizada el 23/06/2025)",
+          "url": "https://www.faa.gov/airports/new_entrants/aam_infrastructure",
+          "anio": 2025,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "informe"
+        }
+      ]
+    },
+    "oaci": {
+      "valor": "No se confirmó un Volumen III del Anexo 14 para vertipuertos.",
+      "tipo": "estimacion",
+      "informe": {
+        "titulo": "Aviacion2050_InformeBreve",
+        "version": "v03",
+        "fecha": "2026-10-18",
+        "autor": "Julian Ruarte",
+        "seccion": "6.4 Vertipuertos"
+      }
+    }
+  },
+  "argentina": {
+    "anac_319": {
+      "valor": "La Resolución ANAC 319/2025 (07/05/2025) aprueba la Parte 100 de las RAAC: requisitos generales para operar aeronaves pilotadas a distancia. Deroga la Resolución 880/2019.",
+      "tipo": "verificado",
+      "fuentes": [
+        {
+          "titulo": "Resolución ANAC 319/2025, Boletín Oficial de la República Argentina (09/05/2025)",
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/325047/20250509",
+          "anio": 2025,
+          "consultado": "2026-10-26",
+          "tipo": "primaria",
+          "verificacion": "buscador"
+        },
+        {
+          "titulo": "Part 100: ANAC Argentina updates its regulations for drones (Aviacionline)",
+          "url": "https://www.aviacionline.com/part-100-anac-argentina-updates-its-regulations-for-drones",
+          "anio": 2025,
+          "consultado": "2026-10-26",
+          "tipo": "secundaria",
+          "verificacion": "buscador"
+        }
+      ]
+    },
+    "marco_evtol": {
+      "valor": "No se identificó un marco específico para eVTOL tripulados.",
+      "tipo": "estimacion",
+      "informe": {
+        "titulo": "Aviacion2050_InformeBreve",
+        "version": "v03",
+        "fecha": "2026-10-18",
+        "autor": "Julian Ruarte",
+        "seccion": "6.2 Marco normativo"
+      }
+    }
+  },
+  "pendientes": [
+    "Releer el PDF de EASA PTS-VPT-DSN (1,5 D, 3 m o 0,25 D): los valores vienen del Informe Breve v03, que los toma de la conferencia de 2026 (B p120 y p124).",
+    "Releer el EB 105A en faa.gov: el buscador confirmó 12.500 lb y la fecha; falta la Tabla 1-1.",
+    "Resolución ANAC 550/2025 (07/08/2025): un estudio jurídico (Marval) dice que aprueba una segunda edición de la Parte 100 y las Partes 101 y 102; el Boletín Oficial, por buscador, solo muestra un cambio de numeración. Leer el texto antes de citarla.",
+    "Clave de aeródromo: falta la tabla del Anexo 14 (fuente primaria); hoy solo está SKYbrary."
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "_nota": "Especificaciones (configuración, asientos, alcance) solo con hoja técnica o comunicado del fabricante, o con el regulador. Estado y certificación con el regulador o el comunicado oficial; la prensa especializada se marca como secundaria.",
+  "vehiculos": [
+    {
+      "id": "ehang-eh216-s",
+      "nombre": "EHang EH216-S",
+      "fabricante": "EHang",
+      "configuracion": {
+        "valor": "multicoptero",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "EHang: EH216-S (página de producto)",
+            "url": "https://www.ehang.com/ehang216s/",
+            "anio": null,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "informe"
+          }
+        ],
+        "informe": {
+          "titulo": "Aviacion2050_InformeBreve",
+          "version": "v03",
+          "fecha": "2026-10-18",
+          "autor": "Julian Ruarte",
+          "seccion": "6.1 Estado de los programas (Tabla 8)"
+        },
+        "contexto": "Multicóptero autónomo, sin piloto a bordo.",
+        "nota": "El Informe Breve v03 lo da como verificado; el buscador confirmó la página de producto pero no la palabra 'multicóptero'. Varias fuentes secundarias hablan de 16 rotores.",
+        "conflicts": []
+      },
+      "asientos": {
+        "valor": null,
+        "nota": "Fuentes secundarias: hasta dos pasajeros, sin piloto a bordo."
+      },
+      "alcance_km": {
+        "valor": 30,
+        "unidad": "km",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "EHang: EH216-S (página de producto)",
+            "url": "https://www.ehang.com/ehang216s/",
+            "anio": null,
+            "consultado": "2026-10-26",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Alcance que declara EHang en su página de producto.",
+        "conflicts": []
+      },
+      "estado": {
+        "valor": "operando",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "EHang's EH216-S eVTOL Operators Obtain Air Operator Certificates (30/03/2025)",
+            "url": "https://ir.ehang.com/news-releases/news-release-details/ehangs-eh216-s-evtol-operators-obtain-air-operator-certificates",
+            "anio": 2025,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "EHang Reports First Quarter 2025 Unaudited Financial Results",
+            "url": "https://ir.ehang.com/news-releases/news-release-details/ehang-reports-first-quarter-2025-unaudited-financial-results",
+            "anio": 2025,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Opera comercialmente solo en China, sin piloto a bordo, en sitios designados de Guangzhou y Hefei.",
+        "nota": "Coincide con Aviacion2050_ClasificacionTecnologica_v01 (18/10/2026)."
+      },
+      "certificacion": {
+        "valor": "Certificados de tipo, de producción y de operador de la CAAC (China)",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "EHang EH216-S obtiene el certificado de tipo de la CAAC (13/10/2023)",
+            "url": "https://www.ehang.com/news/990.html",
+            "anio": 2023,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "EHang Secures Production Certificate from CAAC (07/04/2024)",
+            "url": "https://www.ehang.com/news/1058.html",
+            "anio": 2024,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "EHang's EH216-S eVTOL Operators Obtain Air Operator Certificates (30/03/2025)",
+            "url": "https://ir.ehang.com/news-releases/news-release-details/ehangs-eh216-s-evtol-operators-obtain-air-operator-certificates",
+            "anio": 2025,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "nota": "Coincide con Aviacion2050_ClasificacionTecnologica_v01 (18/10/2026)."
+      },
+      "hitos": [
+        {
+          "valor": "Certificado de tipo de la CAAC",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "EHang EH216-S obtiene el certificado de tipo de la CAAC (13/10/2023)",
+              "url": "https://www.ehang.com/news/990.html",
+              "anio": 2023,
+              "consultado": "2026-10-24",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "fecha": "2023-10-13"
+        },
+        {
+          "valor": "Certificado de producción de la CAAC",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "EHang Secures Production Certificate from CAAC (07/04/2024)",
+              "url": "https://www.ehang.com/news/1058.html",
+              "anio": 2024,
+              "consultado": "2026-10-24",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "fecha": "2024-04-07"
+        },
+        {
+          "valor": "Primeros certificados de operador de la CAAC para vuelos comerciales con pasajeros",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "EHang Reports First Quarter 2025 Unaudited Financial Results",
+              "url": "https://ir.ehang.com/news-releases/news-release-details/ehang-reports-first-quarter-2025-unaudited-financial-results",
+              "anio": 2025,
+              "consultado": "2026-10-24",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            },
+            {
+              "titulo": "EHang's EH216-S eVTOL Operators Obtain Air Operator Certificates (30/03/2025)",
+              "url": "https://ir.ehang.com/news-releases/news-release-details/ehangs-eh216-s-evtol-operators-obtain-air-operator-certificates",
+              "anio": 2025,
+              "consultado": "2026-10-24",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "fecha": "2025-03-28",
+          "contexto": "El comunicado de EHang es del 30/03/2025; el informe trimestral da el 28/03 como fecha de emisión."
+        }
+      ],
+      "pendientes": [
+        "Hoja técnica de EHang: asientos y confirmación de la configuración."
+      ]
+    },
+    {
+      "id": "joby",
+      "nombre": "Joby",
+      "fabricante": "Joby Aviation",
+      "configuracion": {
+        "valor": "rotores_basculantes",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Joby Aviation: Technology (especificaciones)",
+            "url": "https://www.jobyaviation.com/technology",
+            "anio": null,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Seis hélices eléctricas que basculan de vertical a horizontal."
+      },
+      "asientos": {
+        "valor": "1 piloto + 4 pasajeros",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Joby Aviation: Technology (especificaciones)",
+            "url": "https://www.jobyaviation.com/technology",
+            "anio": null,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ]
+      },
+      "alcance_km": {
+        "valor": null,
+        "unidad": "km",
+        "nota": "Prensa: hasta 150 millas; falta la cifra en una fuente de Joby, con condiciones de reserva."
+      },
+      "estado": {
+        "valor": "en_preparacion",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Joby flies first FAA-conforming eVTOL (AIN, 12/03/2026)",
+            "url": "https://backend.ainonline.com/aviation-news/futureflight/2026-03-12/joby-flies-first-faa-conforming-evtol",
+            "anio": 2026,
+            "consultado": "2026-10-24",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Sin certificado de tipo emitido.",
+        "nota": "Coincide con Aviacion2050_ClasificacionTecnologica_v01 (18/10/2026)."
+      },
+      "certificacion": {
+        "valor": "Certificación de tipo de la FAA en curso: etapa 5 de 5, con ensayos TIA",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Joby flies first FAA-conforming eVTOL (AIN, 12/03/2026)",
+            "url": "https://backend.ainonline.com/aviation-news/futureflight/2026-03-12/joby-flies-first-faa-conforming-evtol",
+            "anio": 2026,
+            "consultado": "2026-10-24",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "nota": "Coincide con Aviacion2050_ClasificacionTecnologica_v01 (18/10/2026)."
+      },
+      "hitos": [
+        {
+          "valor": "Vuela la primera aeronave conforme de la FAA (N547JX), la primera de cinco para los ensayos TIA",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "Joby flies first FAA-conforming eVTOL (AIN, 12/03/2026)",
+              "url": "https://backend.ainonline.com/aviation-news/futureflight/2026-03-12/joby-flies-first-faa-conforming-evtol",
+              "anio": 2026,
+              "consultado": "2026-10-24",
+              "tipo": "secundaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "fecha": "2026-03-11",
+          "contexto": "Fecha del anuncio; AIN lo publicó el 12/03/2026."
+        }
+      ],
+      "pendientes": [
+        "Comunicado de Joby del 11/03/2026 (fuente primaria del hito).",
+        "Alcance declarado por Joby."
+      ]
+    },
+    {
+      "id": "archer-midnight",
+      "nombre": "Archer Midnight",
+      "fabricante": "Archer Aviation",
+      "configuracion": {
+        "valor": null,
+        "nota": "Configuración \"12 tilt 6\": los 12 rotores sostienen en el despegue y los 6 delanteros basculan para el crucero, con ala fija. Mezcla rotores basculantes y sustentación + crucero: falta definir cómo clasificarlo."
+      },
+      "asientos": {
+        "valor": "1 piloto + 4 pasajeros",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Archer Unveils its Production Aircraft, Midnight (2022)",
+            "url": "https://investors.archer.com/news/news-details/2022/Archer-Unveils-its-Production-Aircraft-Midnight/default.aspx",
+            "anio": 2022,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ]
+      },
+      "alcance_km": {
+        "valor": null,
+        "unidad": "km"
+      },
+      "estado": {
+        "valor": "en_preparacion",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "UAE Regulator And Archer Move To Streamlined Approach for Certifying Midnight in the UAE (07/05/2026)",
+            "url": "https://investors.archer.com/news/news-details/2026/UAE-Regulator-And-Archer-Move-To-Streamlined-Approach-for-Certifying-Midnight-in-the-UAE",
+            "anio": 2026,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "GCAA transitions Archer's Midnight aircraft into Restricted Type Certificate programme (WAM)",
+            "url": "https://www.wam.ae/en/article/c03y6iq-gcaa-transitions-archer’s-midnight-aircraft-into",
+            "anio": 2026,
+            "consultado": "2026-10-24",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Programa de certificado de tipo restringido en Emiratos; no es un certificado emitido.",
+        "nota": "Coincide con Aviacion2050_ClasificacionTecnologica_v01 (18/10/2026)."
+      },
+      "certificacion": {
+        "valor": "Programa de certificado de tipo restringido (RTC) de la GCAA de Emiratos Árabes Unidos",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "UAE Regulator And Archer Move To Streamlined Approach for Certifying Midnight in the UAE (07/05/2026)",
+            "url": "https://investors.archer.com/news/news-details/2026/UAE-Regulator-And-Archer-Move-To-Streamlined-Approach-for-Certifying-Midnight-in-the-UAE",
+            "anio": 2026,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "GCAA transitions Archer's Midnight aircraft into Restricted Type Certificate programme (WAM)",
+            "url": "https://www.wam.ae/en/article/c03y6iq-gcaa-transitions-archer’s-midnight-aircraft-into",
+            "anio": 2026,
+            "consultado": "2026-10-24",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          }
+        ]
+      },
+      "hitos": [
+        {
+          "valor": "La GCAA de Emiratos pasa el Midnight a su programa de certificado de tipo restringido",
+          "tipo": "verificado",
+          "fuentes": [
+            {
+              "titulo": "UAE Regulator And Archer Move To Streamlined Approach for Certifying Midnight in the UAE (07/05/2026)",
+              "url": "https://investors.archer.com/news/news-details/2026/UAE-Regulator-And-Archer-Move-To-Streamlined-Approach-for-Certifying-Midnight-in-the-UAE",
+              "anio": 2026,
+              "consultado": "2026-10-24",
+              "tipo": "primaria",
+              "verificacion": "buscador"
+            },
+            {
+              "titulo": "GCAA transitions Archer's Midnight aircraft into Restricted Type Certificate programme (WAM)",
+              "url": "https://www.wam.ae/en/article/c03y6iq-gcaa-transitions-archer’s-midnight-aircraft-into",
+              "anio": 2026,
+              "consultado": "2026-10-24",
+              "tipo": "secundaria",
+              "verificacion": "buscador"
+            }
+          ],
+          "fecha": "2026-05-07"
+        }
+      ],
+      "pendientes": [
+        "Clasificación de la configuración \"12 tilt 6\".",
+        "Estado de la certificación con la FAA."
+      ]
+    },
+    {
+      "id": "eve",
+      "nombre": "Eve (Embraer)",
+      "fabricante": "Eve Air Mobility",
+      "configuracion": {
+        "valor": null,
+        "nota": "Prensa: rotores de sustentación y hélice de empuje trasera (sustentación + crucero); falta la fuente de Eve."
+      },
+      "asientos": {
+        "valor": null,
+        "nota": "Prensa: cuatro pasajeros; falta la fuente de Eve."
+      },
+      "alcance_km": {
+        "valor": null,
+        "unidad": "km"
+      },
+      "estado": {
+        "valor": "en_preparacion",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Eve pushes eVTOL certification target to 2028 (AirDataNews)",
+            "url": "https://www.airdatanews.com/eve-pushes-e-vtol-certification-target-to-2028-as-development-timeline-slips-again/",
+            "anio": 2026,
+            "consultado": "2026-10-24",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "Embraer's Eve vows to spend cautiously, eyes 2028 flying car certification (Reuters vía MarketScreener)",
+            "url": "https://in.marketscreener.com/news/embraer-s-eve-vows-to-spend-cautiously-eyes-2028-flying-car-certification-ce7f5cd9db8cf424",
+            "anio": 2026,
+            "consultado": "2026-10-24",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Prototipo de ensayo pilotado a distancia."
+      },
+      "certificacion": {
+        "valor": "Meta de certificación declarada por la empresa: 2028",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Eve pushes eVTOL certification target to 2028 (AirDataNews)",
+            "url": "https://www.airdatanews.com/eve-pushes-e-vtol-certification-target-to-2028-as-development-timeline-slips-again/",
+            "anio": 2026,
+            "consultado": "2026-10-24",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "Embraer's Eve vows to spend cautiously, eyes 2028 flying car certification (Reuters vía MarketScreener)",
+            "url": "https://in.marketscreener.com/news/embraer-s-eve-vows-to-spend-cautiously-eyes-2028-flying-car-certification-ce7f5cd9db8cf424",
+            "anio": 2026,
+            "consultado": "2026-10-24",
+            "tipo": "secundaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "Antes apuntaba a 2026 y luego a 2027.",
+        "nota": "El Informe Breve v03 cita a Axios (14/10/2026); el buscador no encontró esa nota."
+      },
+      "hitos": [],
+      "pendientes": [
+        "Fuente primaria de Eve sobre la meta de 2028, la configuración y los asientos."
+      ]
+    }
+  ]
+}

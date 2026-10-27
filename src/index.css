@@ -1,0 +1,126 @@
+@import "tailwindcss";
+@import "@fontsource-variable/archivo/standard.css";
+@import "@fontsource/ibm-plex-sans/400.css";
+@import "@fontsource/ibm-plex-sans/500.css";
+@import "@fontsource/ibm-plex-sans/600.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+
+/* Dirección: escena 1 cinematográfica; escenas 2 en adelante, plano técnico animado.
+   Colores: mismos valores que src/theme.ts (lo verifica theme.test.ts). */
+@theme {
+  --color-noche: #04060b;
+  --color-grafito: #0b1018;
+  --color-linea: #1d2635;
+  --color-tinta: #e9edf3;
+  --color-tenue: #8d97aa;
+  --color-acento: #7cc8ff;
+  --color-ilustrativo: #cdbf9d;
+  --color-sinverif: #8d97aa;
+
+  --color-bateria: #38bdf8;
+  --color-hidrogeno: #c4b5fd;
+  --color-saf: #f5a524;
+  --color-hibrido: #a3e635;
+
+  --color-peso: #fb7185;
+  --color-sustentacion: #7dd3fc;
+  --color-resistencia: #f0abfc;
+  --color-empuje: #86efac;
+
+  --font-display: "Archivo Variable", "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --font-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+html,
+body {
+  background: var(--color-noche);
+  color: var(--color-tinta);
+  color-scheme: dark;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-acento) 35%, transparent);
+}
+
+:focus-visible {
+  outline: 1px solid var(--color-acento);
+  outline-offset: 3px;
+}
+
+@layer components {
+  /* Titular de escena: ancho expandido, en mayúsculas, apretado. */
+  .display {
+    font-family: var(--font-display);
+    font-stretch: 125%;
+    font-weight: 750;
+    text-transform: uppercase;
+    letter-spacing: -0.015em;
+    line-height: 0.92;
+    text-wrap: balance;
+  }
+  .display-xl {
+    font-size: clamp(2.75rem, 8.5vw, 9rem);
+  }
+  .display-lg {
+    font-size: clamp(2rem, 5vw, 4.75rem);
+  }
+  .display-md {
+    font-size: clamp(1.375rem, 2.4vw, 2.25rem);
+  }
+  /* Rótulo técnico: mono, chico, espaciado. */
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-tenue);
+  }
+  .lede {
+    font-size: clamp(1.0625rem, 0.9rem + 0.6vw, 1.375rem);
+    line-height: 1.5;
+    max-width: 36ch;
+    text-wrap: pretty;
+  }
+  .body-copy {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    max-width: 52ch;
+    color: color-mix(in srgb, var(--color-tinta) 82%, transparent);
+    text-wrap: pretty;
+  }
+  /* Cifra técnica grande. */
+  .spec {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1;
+  }
+  .hairline {
+    border-color: var(--color-linea);
+  }
+  /* Degradado para leer texto sobre el 3D sin tarjetas. */
+  .scrim-left {
+    background: linear-gradient(90deg, color-mix(in srgb, var(--color-noche) 95%, transparent) 0%, color-mix(in srgb, var(--color-noche) 82%, transparent) 42%, transparent 78%);
+  }
+  .scrim-bottom {
+    background: linear-gradient(0deg, color-mix(in srgb, var(--color-noche) 94%, transparent) 0%, color-mix(in srgb, var(--color-noche) 60%, transparent) 45%, transparent 100%);
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}

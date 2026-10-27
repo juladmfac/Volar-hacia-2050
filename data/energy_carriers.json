@@ -1,0 +1,296 @@
+{
+  "_nota": "Cada campo es un Dato: valor, tipo (verificado, estimacion, especulacion), fuentes e informe. null = sin verificar. Comparar solo valores del mismo nivel (celda, paquete o combustible); el nivel va en contexto.",
+  "portadores": [
+    {
+      "id": "bateria",
+      "nombre": "Batería",
+      "nombre_en": "battery",
+      "energia_especifica": {
+        "valor": 500,
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Amprius Introduces SiCore500 High Energy Density Cells for Unmanned Aviation (Business Wire, 02/09/2026)",
+            "url": "https://secure.businesswire.com/news/home/20260902319547/en/Amprius-Introduces-SiCore500-High-Energy-Density-Cells-for-Unmanned-Aviation",
+            "anio": 2026,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "unidad": "Wh/kg",
+        "contexto": "Una celda, no un paquete: la SiCore500 de Amprius, a descarga continua 1C, pensada para drones y plataformas de gran autonomía. Es la cifra de la empresa. Un paquete instalado y el perfil de despegue de un eVTOL rinden menos.",
+        "nota": "Coincide con Aviacion2050_ClasificacionTecnologica_v01 (18/10/2026). El Informe v04 (§3.2) estima unos 400 Wh/kg de paquete con la relación 0,8 (E)."
+      },
+      "densidad_energetica_volumetrica": {
+        "valor": null,
+        "unidad": "Wh/L"
+      },
+      "estado_uso_evtol": {
+        "valor": "operando",
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "EHang's EH216-S eVTOL Operators Obtain Air Operator Certificates (30/03/2025)",
+            "url": "https://ir.ehang.com/news-releases/news-release-details/ehangs-eh216-s-evtol-operators-obtain-air-operator-certificates",
+            "anio": 2025,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          },
+          {
+            "titulo": "EHang Reports First Quarter 2025 Unaudited Financial Results",
+            "url": "https://ir.ehang.com/news-releases/news-release-details/ehang-reports-first-quarter-2025-unaudited-financial-results",
+            "anio": 2025,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "contexto": "El EH216-S, un eVTOL eléctrico, opera comercialmente en China."
+      },
+      "conflicts": [],
+      "energia_especifica_paquete": {
+        "valor": 400,
+        "unidad": "Wh/kg",
+        "tipo": "estimacion",
+        "informe": {
+          "titulo": "Aviacion2050_Informe",
+          "version": "v04",
+          "fecha": "2026-09-10",
+          "autor": "Julian Ruarte",
+          "seccion": "3.2 Baterías: la trayectoria y sus trampas de lectura"
+        },
+        "contexto": "La celda de 500 Wh/kg llevada a paquete instalado con la relación 0,8 de la literatura (carcasa, gestión térmica y de la batería, cableado, contención, reserva no utilizable). Es optimista: esa celda está pensada para descarga de baja tasa, no para la potencia de un despegue.",
+        "conflicts": []
+      },
+      "escenarios": [
+        {
+          "alcance_km": 500,
+          "celda": {
+            "valor": 300,
+            "unidad": "Wh/kg",
+            "tipo": "verificado",
+            "fuentes": [
+              {
+                "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
+                "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
+                "anio": 2024,
+                "consultado": "2026-10-26",
+                "tipo": "primaria",
+                "verificacion": "informe"
+              }
+            ],
+            "informe": {
+              "titulo": "Aviacion2050_Informe",
+              "version": "v04",
+              "fecha": "2026-09-10",
+              "autor": "Julian Ruarte",
+              "seccion": "3.2 Baterías: la trayectoria y sus trampas de lectura"
+            },
+            "conflicts": []
+          },
+          "paquete": {
+            "valor": 240,
+            "unidad": "Wh/kg",
+            "tipo": "verificado",
+            "fuentes": [
+              {
+                "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
+                "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
+                "anio": 2024,
+                "consultado": "2026-10-26",
+                "tipo": "primaria",
+                "verificacion": "informe"
+              }
+            ],
+            "informe": {
+              "titulo": "Aviacion2050_Informe",
+              "version": "v04",
+              "fecha": "2026-09-10",
+              "autor": "Julian Ruarte",
+              "seccion": "3.2 Baterías: la trayectoria y sus trampas de lectura"
+            },
+            "conflicts": []
+          }
+        },
+        {
+          "alcance_km": 800,
+          "celda": {
+            "valor": 450,
+            "unidad": "Wh/kg",
+            "tipo": "verificado",
+            "fuentes": [
+              {
+                "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
+                "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
+                "anio": 2024,
+                "consultado": "2026-10-26",
+                "tipo": "primaria",
+                "verificacion": "informe"
+              }
+            ],
+            "informe": {
+              "titulo": "Aviacion2050_Informe",
+              "version": "v04",
+              "fecha": "2026-09-10",
+              "autor": "Julian Ruarte",
+              "seccion": "3.2 Baterías: la trayectoria y sus trampas de lectura"
+            },
+            "conflicts": []
+          },
+          "paquete": {
+            "valor": 360,
+            "unidad": "Wh/kg",
+            "tipo": "verificado",
+            "fuentes": [
+              {
+                "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
+                "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
+                "anio": 2024,
+                "consultado": "2026-10-26",
+                "tipo": "primaria",
+                "verificacion": "buscador"
+              }
+            ],
+            "informe": {
+              "titulo": "Aviacion2050_Informe",
+              "version": "v04",
+              "fecha": "2026-09-10",
+              "autor": "Julian Ruarte",
+              "seccion": "3.2 Baterías: la trayectoria y sus trampas de lectura"
+            },
+            "conflicts": [],
+            "contexto": "El resumen del paper plantea un paquete de 360 Wh/kg, con carga y descarga a 1,2C, para 800 km."
+          }
+        },
+        {
+          "alcance_km": 1000,
+          "celda": {
+            "valor": 550,
+            "unidad": "Wh/kg",
+            "tipo": "verificado",
+            "fuentes": [
+              {
+                "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
+                "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
+                "anio": 2024,
+                "consultado": "2026-10-26",
+                "tipo": "primaria",
+                "verificacion": "informe"
+              }
+            ],
+            "informe": {
+              "titulo": "Aviacion2050_Informe",
+              "version": "v04",
+              "fecha": "2026-09-10",
+              "autor": "Julian Ruarte",
+              "seccion": "3.2 Baterías: la trayectoria y sus trampas de lectura"
+            },
+            "conflicts": []
+          },
+          "paquete": {
+            "valor": 440,
+            "unidad": "Wh/kg",
+            "tipo": "verificado",
+            "fuentes": [
+              {
+                "titulo": "de Vries, R. et al. (2024). Battery Performance Metrics for Large Electric Passenger Aircraft. ICAS 2024, paper 0636",
+                "url": "https://www.icas.org/icas_archive/icas2024/data/papers/icas2024_0636_paper.pdf",
+                "anio": 2024,
+                "consultado": "2026-10-26",
+                "tipo": "primaria",
+                "verificacion": "informe"
+              }
+            ],
+            "informe": {
+              "titulo": "Aviacion2050_Informe",
+              "version": "v04",
+              "fecha": "2026-09-10",
+              "autor": "Julian Ruarte",
+              "seccion": "3.2 Baterías: la trayectoria y sus trampas de lectura"
+            },
+            "conflicts": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "hidrogeno",
+      "nombre": "Hidrógeno",
+      "nombre_en": "hydrogen",
+      "energia_especifica": {
+        "valor": 120,
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Hydrogen Storage (US Department of Energy, Hydrogen and Fuel Cell Technologies Office)",
+            "url": "https://www.energy.gov/eere/fuelcells/hydrogen-storage",
+            "anio": null,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "unidad": "MJ/kg",
+        "contexto": "Hidrógeno como sustancia, sin tanque (poder calorífico inferior). La misma fuente da 44 MJ/kg para la nafta."
+      },
+      "densidad_energetica_volumetrica": {
+        "valor": 8,
+        "tipo": "verificado",
+        "fuentes": [
+          {
+            "titulo": "Hydrogen Storage (US Department of Energy, Hydrogen and Fuel Cell Technologies Office)",
+            "url": "https://www.energy.gov/eere/fuelcells/hydrogen-storage",
+            "anio": null,
+            "consultado": "2026-10-24",
+            "tipo": "primaria",
+            "verificacion": "buscador"
+          }
+        ],
+        "unidad": "MJ/L",
+        "contexto": "Hidrógeno líquido, sin tanque. La misma fuente da 32 MJ/L para la nafta.",
+        "conflicts": [
+          "Un documento del programa de hidrógeno del DOE (2000) da entre 8,4 y 10,43 MJ/L para el hidrógeno líquido; la página actual del DOE da 8 MJ/L."
+        ]
+      },
+      "estado_uso_evtol": {
+        "valor": null
+      },
+      "conflicts": []
+    },
+    {
+      "id": "saf",
+      "nombre": "Combustible de aviación sostenible",
+      "nombre_en": "sustainable aviation fuel, SAF",
+      "energia_especifica": {
+        "valor": null,
+        "unidad": "MJ/kg"
+      },
+      "densidad_energetica_volumetrica": {
+        "valor": null,
+        "unidad": "MJ/L"
+      },
+      "estado_uso_evtol": {
+        "valor": null
+      },
+      "conflicts": []
+    },
+    {
+      "id": "hibrido",
+      "nombre": "Híbrido-eléctrico",
+      "nombre_en": "hybrid-electric",
+      "energia_especifica": {
+        "valor": null,
+        "nota": "No es un portador único: depende de la combinación de combustible y batería."
+      },
+      "densidad_energetica_volumetrica": {
+        "valor": null
+      },
+      "estado_uso_evtol": {
+        "valor": null
+      },
+      "conflicts": []
+    }
+  ]
+}
